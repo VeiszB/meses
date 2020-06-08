@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hmlt {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: auto;
+  background: url("img/hatter.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.header a img {
+  flex: 2 2 10rem;
+  margin: 0 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.header h1 {
+  flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4rem;
+  font-size: 4rem;
+  color: rgb(24, 144, 165);
+  text-shadow: 2px 2px 2px white;
+  transition: font-size 1s;
+  background: url(/img/felhő3.png);
+  background-position: left;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+.header h2 {
+  flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 3rem;
+  color: rgb(24, 144, 165);
+  text-shadow: 2px 2px 2px white;
+}
