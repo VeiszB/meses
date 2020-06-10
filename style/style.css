@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -10,8 +9,8 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  height: 100vh;
+main {
+  height: 80vh;
   width: auto;
   background: url("../img/hatter.png");
   background-position: bottom;
@@ -90,7 +89,7 @@ a {
   text-shadow: 2px 2px 2px white;
   -webkit-transition: font-size 1s;
   transition: font-size 1s;
-  background: url("../img/felhő3.png");
+  background: url("../img/");
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
@@ -107,14 +106,17 @@ a {
 }
 
 footer {
-  background-color: #2f7d3d;
-  color: #e0f2f9;
+  background: -webkit-gradient(linear, left top, right top, from(#1890a5), to(#f0f0f0));
+  background: linear-gradient(to right, #1890a5, #f0f0f0);
+  color: white;
   font-family: "Passero One", cursive;
-  min-height: 10vh;
+  letter-spacing: 1px;
+  min-height: 7vh;
   width: 100%;
   padding: 0% 5%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  border-top: 5px solid #5a883d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,19 +157,27 @@ footer h4 {
 }
 
 footer a {
-  color: #e0f2f9;
+  letter-spacing: 0;
+  color: #1890a5;
 }
 
 footer a:hover {
-  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 1px 1px #1890a5;
 }
 
 footer img {
   background-color: white;
   border-radius: 25%;
-  height: 8vh;
+  height: 5vh;
   width: auto;
+  border: 2px solid #1890a5;
   vertical-align: middle;
+}
+
+footer img:hover {
+  -webkit-box-shadow: 2px 1px 1px #1890a5;
+          box-shadow: 2px 1px 1px #1890a5;
 }
 
 .main-nav {

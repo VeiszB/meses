@@ -1,12 +1,14 @@
 footer {
-  background-color: #2f7d3d;
-  color: #e0f2f9;
+  background: linear-gradient(to right, #1890a5, #f0f0f0);
+  color: white;
   font-family: "Passero One", cursive;
-  min-height: 10vh;
+  letter-spacing: 1px;
+  min-height: 7vh;
   width: 100%;
   padding: 0% 5%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  border-top: 5px solid #5a883d;
   @include flex(flex-start, center, row);
   ul {
     flex: 1 1 40rem;
@@ -16,18 +18,25 @@ footer {
     flex: 1 1 40rem;
   }
   a {
-    color: #e0f2f9;
+    letter-spacing: 0;
+    color: #1890a5;
   }
 
   a:hover {
-    text-decoration: underline;
+    color: white;
+    text-shadow: 2px 1px 1px #1890a5;
   }
 
   img {
     background-color: white;
     border-radius: 25%;
-    height: 8vh;
+    height: 5vh;
     width: auto;
+    border: 2px solid #1890a5;
     vertical-align: middle;
+  }
+
+  img:hover {
+    box-shadow: 2px 1px 1px #1890a5;
   }
 }
