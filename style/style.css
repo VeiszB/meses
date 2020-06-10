@@ -1,0 +1,106 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: auto;
+  background: url(/img/hatter.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4,
+h5 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.header {
+  width: 100%;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.header a img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 2 10rem;
+          flex: 2 2 10rem;
+  margin: 0 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.header h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4rem;
+  font-size: 4rem;
+  color: #1890a5;
+  text-shadow: 2px 2px 2px white;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  background: url(/img/felhő3.png);
+  background-position: left;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+.header h2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 3rem;
+  color: #1890a5;
+  text-shadow: 2px 2px 2px white;
+}
+/*# sourceMappingURL=style.css.map */
