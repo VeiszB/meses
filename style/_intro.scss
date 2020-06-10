@@ -1,15 +1,15 @@
 .header {
   width: 100%;
-  height: 25vh;
+  min-height: 20vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: auto;
 }
 
 .header a img {
-  flex: 2 2 10rem;
-  margin: 0 5rem;
+  flex: 2 1 20rem;
+  margin: 0rem 5rem;
   height: 12vh;
   width: auto;
 }
@@ -17,21 +17,22 @@
 .header h1 {
   flex: 1 1 40rem;
   font-family: "Passero One", cursive;
-  padding: 4rem;
-  font-size: 4rem;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 5rem;
   color: rgb(24, 144, 165);
   text-shadow: 2px 2px 2px white;
   transition: font-size 1s;
-  background: url(/img/felhő3.png);
-  background-position: left;
-  background-size: 75%;
+  background: url("/img/felhő3.png");
+  background-position: center;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 
 .header h2 {
   flex: 1 1 40rem;
   font-family: "Passero One", cursive;
-  font-size: 3rem;
+  font-size: 4.6rem;
   color: rgb(24, 144, 165);
   text-shadow: 2px 2px 2px white;
 }

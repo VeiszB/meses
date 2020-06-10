@@ -13,7 +13,7 @@ html {
 body {
   height: 100vh;
   width: auto;
-  background: url(/img/hatter.png);
+  background: url("/img/hatter.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -56,23 +56,24 @@ a {
 
 .header {
   width: 100%;
-  height: 25vh;
+  min-height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
 }
 
 .header a img {
   -webkit-box-flex: 2;
-      -ms-flex: 2 2 10rem;
-          flex: 2 2 10rem;
-  margin: 0 5rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  margin: 0rem 5rem;
   height: 12vh;
   width: auto;
 }
@@ -82,15 +83,16 @@ a {
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
   font-family: "Passero One", cursive;
-  padding: 4rem;
-  font-size: 4rem;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 5rem;
   color: #1890a5;
   text-shadow: 2px 2px 2px white;
   -webkit-transition: font-size 1s;
   transition: font-size 1s;
-  background: url(/img/felhő3.png);
-  background-position: left;
-  background-size: 75%;
+  background: url("/img/felhő3.png");
+  background-position: center;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 
@@ -99,8 +101,90 @@ a {
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
   font-family: "Passero One", cursive;
-  font-size: 3rem;
+  font-size: 4.6rem;
   color: #1890a5;
   text-shadow: 2px 2px 2px white;
+}
+
+footer {
+  background-color: #2f7d3d;
+  color: #e0f2f9;
+  font-family: "Passero One", cursive;
+  min-height: 10vh;
+  padding: 0% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer h4 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+footer a {
+  color: #e0f2f9;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  background-color: white;
+  border-radius: 25%;
+  height: 8vh;
+  width: auto;
+  vertical-align: middle;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-nav img {
+  height: 30vh;
+  width: auto;
+}
+
+.nav-title {
+  color: #c63030;
 }
 /*# sourceMappingURL=style.css.map */

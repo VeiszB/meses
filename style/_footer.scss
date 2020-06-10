@@ -1,0 +1,30 @@
+footer {
+  background-color: #2f7d3d;
+  color: #e0f2f9;
+  font-family: "Passero One", cursive;
+  min-height: 10vh;
+  padding: 0% 5%;
+  @include flex(flex-start, center, row);
+  ul {
+    flex: 1 1 40rem;
+    @include flex(space-around, center, row);
+  }
+  h4 {
+    flex: 1 1 40rem;
+  }
+  a {
+    color: #e0f2f9;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    background-color: white;
+    border-radius: 25%;
+    height: 8vh;
+    width: auto;
+    vertical-align: middle;
+  }
+}
