@@ -13,7 +13,7 @@ html {
 body {
   height: 100vh;
   width: auto;
-  background: url("/img/hatter.png");
+  background: url("../img/hatter.png");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ a {
   text-shadow: 2px 2px 2px white;
   -webkit-transition: font-size 1s;
   transition: font-size 1s;
-  background: url("/img/felhő3.png");
+  background: url("../img/felhő3.png");
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
@@ -111,7 +111,10 @@ footer {
   color: #e0f2f9;
   font-family: "Passero One", cursive;
   min-height: 10vh;
+  width: 100%;
   padding: 0% 5%;
+  position: fixed;
+  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -168,9 +171,27 @@ footer img {
 }
 
 .main-nav {
+  height: 100vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -179,8 +200,8 @@ footer img {
           align-items: center;
 }
 
-.main-nav img {
-  height: 30vh;
+.nav-content .card img {
+  height: 40vh;
   width: auto;
 }
 

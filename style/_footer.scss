@@ -3,7 +3,10 @@ footer {
   color: #e0f2f9;
   font-family: "Passero One", cursive;
   min-height: 10vh;
+  width: 100%;
   padding: 0% 5%;
+  position: fixed;
+  bottom: 0;
   @include flex(flex-start, center, row);
   ul {
     flex: 1 1 40rem;
