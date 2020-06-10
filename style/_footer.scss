@@ -1,5 +1,7 @@
 footer {
   background: linear-gradient(to right, #1890a5, #f0f0f0);
+  box-shadow: -2px -2px 20px #1e3013;
+  /*background: linear-gradient(to right, #338942, #9fd8e2);*/
   color: white;
   font-family: "Passero One", cursive;
   letter-spacing: 1px;
@@ -8,7 +10,7 @@ footer {
   padding: 0% 5%;
   position: absolute;
   bottom: 0;
-  border-top: 5px solid #5a883d;
+  border-bottom: 5px solid #5a883d;
   @include flex(flex-start, center, row);
   ul {
     flex: 1 1 40rem;
@@ -16,10 +18,13 @@ footer {
   }
   h4 {
     flex: 1 1 40rem;
+    text-shadow: 1px 1px 1px #000000;
   }
   a {
     letter-spacing: 0;
-    color: #1890a5;
+    /*color: #1890a5;*/
+    color: #1f8ea1;
+    text-shadow: 1px 1px 1px #f7f7f7be;
   }
 
   a:hover {

@@ -10,7 +10,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 75vw;
+  width: 80vw;
   margin: 7.5rem auto;
 }
 
@@ -22,11 +22,11 @@
 }
 
 .card img {
-  height: 40vh;
+  height: 45vh;
   width: auto;
-  transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
-  animation: img-shake 1.5s ease-in-out 0.5s infinite,
-    img-shake 2.5s infinite ease alternate-reverse 2s;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+    img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  animation: img-shake 3s ease infinite alternate;
   transform-origin: bottom;
 }
 
@@ -35,7 +35,7 @@
     transform: rotateZ(-3deg);
   }
   to {
-    transform: rotateZ(3deg);
+    transform: rotateZ(5deg);
   }
 }
 

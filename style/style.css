@@ -84,9 +84,9 @@ a {
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
-  font-size: 5rem;
+  font-size: 4.8rem;
   color: #1890a5;
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 1px 1px 1px #cc3736;
   -webkit-transition: font-size 1s;
   transition: font-size 1s;
   background: url("../img/felho.png");
@@ -108,6 +108,9 @@ a {
 footer {
   background: -webkit-gradient(linear, left top, right top, from(#1890a5), to(#f0f0f0));
   background: linear-gradient(to right, #1890a5, #f0f0f0);
+  -webkit-box-shadow: -2px -2px 20px #1e3013;
+          box-shadow: -2px -2px 20px #1e3013;
+  /*background: linear-gradient(to right, #338942, #9fd8e2);*/
   color: white;
   font-family: "Passero One", cursive;
   letter-spacing: 1px;
@@ -116,7 +119,7 @@ footer {
   padding: 0% 5%;
   position: absolute;
   bottom: 0;
-  border-top: 5px solid #5a883d;
+  border-bottom: 5px solid #5a883d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,11 +157,14 @@ footer h4 {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 footer a {
   letter-spacing: 0;
-  color: #1890a5;
+  /*color: #1890a5;*/
+  color: #1f8ea1;
+  text-shadow: 1px 1px 1px #f7f7f7be;
 }
 
 footer a:hover {
@@ -205,7 +211,7 @@ footer img:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 75vw;
+  width: 80vw;
   margin: 7.5rem auto;
 }
 
@@ -223,11 +229,12 @@ footer img:hover {
 }
 
 .card img {
-  height: 40vh;
+  height: 45vh;
   width: auto;
-  -webkit-transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
-          transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
-  animation: img-shake 1.5s ease-in-out 0.5s infinite, img-shake 2.5s infinite ease alternate-reverse 2s;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+    img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  -webkit-animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
 }
@@ -238,8 +245,8 @@ footer img:hover {
             transform: rotateZ(-3deg);
   }
   to {
-    -webkit-transform: rotateZ(3deg);
-            transform: rotateZ(3deg);
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
@@ -249,8 +256,8 @@ footer img:hover {
             transform: rotateZ(-3deg);
   }
   to {
-    -webkit-transform: rotateZ(3deg);
-            transform: rotateZ(3deg);
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
@@ -268,5 +275,32 @@ footer img:hover {
   font-size: 6rem;
   font-family: "Passero One", cursive;
   text-shadow: 1.5px 1px 2px #c63030;
+}
+
+#kiallitas-main {
+  width: 100%;
+  height: auto;
+  background-position: left;
+}
+
+#kiallitas-footer {
+  position: relative;
+  bottom: 0;
+}
+
+.kiallitas-content {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 3rem;
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 2%;
+}
+
+p {
+  font-size: 2rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
