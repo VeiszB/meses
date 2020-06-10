@@ -10,7 +10,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80vw;
+  width: 85vw;
   margin: 7.5rem auto;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .card img {
-  height: 45vh;
+  height: 48vh;
   width: auto;
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
     img-shake 2.5s infinite ease alternate-reverse 2s;*/
@@ -37,6 +37,10 @@
   to {
     transform: rotateZ(5deg);
   }
+}
+
+.nav {
+  flex: 1 1 20rem;
 }
 
 .nav-title {

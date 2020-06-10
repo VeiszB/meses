@@ -211,7 +211,7 @@ footer img:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 80vw;
+  width: 85vw;
   margin: 7.5rem auto;
 }
 
@@ -229,7 +229,7 @@ footer img:hover {
 }
 
 .card img {
-  height: 45vh;
+  height: 48vh;
   width: auto;
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
     img-shake 2.5s infinite ease alternate-reverse 2s;*/
@@ -259,6 +259,12 @@ footer img:hover {
     -webkit-transform: rotateZ(5deg);
             transform: rotateZ(5deg);
   }
+}
+
+.nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
 }
 
 .nav-title {
