@@ -12,15 +12,18 @@ footer {
   bottom: 0;
   border-bottom: 5px solid #5a883d;
   @include flex(flex-start, center, row);
+  flex-wrap: wrap;
   ul {
     flex: 1 1 40rem;
     @include flex(space-around, center, row);
+    flex-wrap: wrap;
   }
   h4 {
     flex: 1 1 40rem;
     text-shadow: 1px 1px 1px #000000;
   }
-  a {
+  a,
+  li {
     letter-spacing: 0;
     /*color: #1890a5;*/
     color: #1f8ea1;
