@@ -169,8 +169,8 @@ footer a,
 footer li {
   letter-spacing: 0;
   /*color: #1890a5;*/
-  color: #1f8ea1;
-  text-shadow: 1px 1px 1px #f7f7f7be;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #11658bbe;
 }
 
 footer a:hover {
@@ -304,27 +304,50 @@ footer img:hover {
   width: 90%;
   height: auto;
   margin: auto;
-  padding: 3rem;
-  background-color: rgba(255, 255, 255, 0.37);
-  border-radius: 2%;
+  padding: 2rem 1rem;
+  /*;background-color: rgba(255, 255, 255, 0.37);*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
+  background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+  border-radius: 3%;
 }
 
-p {
-  font-size: 2rem;
+.kiallitas-content p {
+  font-size: 1.6rem;
   padding: 1rem;
   color: #11525e;
   font-family: "Montserrat", sans-serif;
 }
 
+.img-right {
+  position: relative;
+  width: 50%;
+  height: auto;
+  float: right;
+  padding: 1vw;
+}
+
+.img-left {
+  position: relative;
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 1vw;
+}
+
 .kiallitas-meta {
-  font-size: 2.3rem;
-  font-variant: small-caps;
-  font-weight: bold;
+  padding: 3rem;
+  font-size: 1.8rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
 }
 
 .kiallitas-cím {
   text-align: right;
+  padding: 3rem;
   font-size: 1.8rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 1382px) {
@@ -443,6 +466,46 @@ p {
   }
   footer li {
     padding: 0.5vh;
+  }
+  /* Kiallitas aloldal */
+  .kiallitas-content {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 1rem 1rem;
+    /*;background-color: rgba(255, 255, 255, 0.37);*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
+    background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+    border-radius: 0%;
+  }
+  .kiallitas-content p {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+  }
+  .kiallitas-meta {
+    font-size: 1.2rem;
+    font-variant: small-caps;
+    font-weight: normal;
+    padding: 1.5rem;
+  }
+  .kiallitas-cím {
+    text-align: right;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+  }
+  .img-right {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: auto;
+  }
+  .img-left {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: none;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
