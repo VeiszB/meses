@@ -27,6 +27,21 @@ body {
   vertical-align: middle;
 }
 
+#tvmacikvizheader {
+  width: 100%;
+  height: 20vh;
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#tvmacikvizheader a img {
+  flex: 1 1 10rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
 #quiz {
   margin: -44px 50px 0px;
   position: relative;
@@ -44,7 +59,12 @@ body {
   font-size: 2rem;
   color: rgb(15, 76, 87);
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 3rem;
+  margin: 3rem auto;
+}
+
+.tvmacitipp {
+  animation: img-shake 3s ease infinite alternate;
+  transform-origin: bottom;
 }
 
 #quiz h1 {

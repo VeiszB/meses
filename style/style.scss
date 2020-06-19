@@ -217,4 +217,49 @@ $gray-text: #2c2c2c;
     animation: img-shake 3s ease infinite alternate;
     transform-origin: bottom;
   }
+
+  /* Tv Maci kvíz */
+
+  #tvmacikvizheader {
+    width: 100%;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #tvmacikvizheader a img {
+    margin: auto;
+    height: 9vh;
+  }
+
+  #tv-maci-cim {
+    font-size: 3.4rem;
+  }
+
+  #tvmaci-bev {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    width: 95%;
+  }
+
+  #quiz {
+    width: 90%;
+    margin: auto;
+  }
+
+  #question h2 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  #question label {
+    margin: 4px;
+    padding: 8px;
+    width: calc(50% - 8px);
+    min-width: 100px;
+    border-radius: 9999px;
+    font-size: 1.6rem;
+  }
 }
