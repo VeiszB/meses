@@ -1,47 +1,53 @@
 // Array of all the questions and choices to populate the questions. This might be saved in some JSON file or a database and we would have to read the data in.
 var all_questions = [
   {
-    question_string:
-      "A TV Maci születésnapja 1964. október 23. De vajon ki találta ki a maci figuráját?",
+    question_string: "Milyen formát ölt olykor-olykor Pom Pom?",
     choices: {
-      correct: "Bálint Ágnes",
-      wrong: ["Nemes Nagy Ágnes", "Bálint gazda", "Tévé Márton"],
-    },
-  },
-  {
-    question_string:
-      "A második változat Knoch Aurél tervei alapján készült. Megtanult még...",
-    choices: {
-      correct: "gitározni is.",
-      wrong: ["dobolni is.", "trombitálni is.", "zongorázni is."],
-    },
-  },
-  {
-    question_string:
-      "A TV Maci először 1983-ban vette fel máig jól ismert pizsamáját. De milyen is volt ez a pizsi? Fel tudod idézni?",
-    choices: {
-      correct: "almazöld színű",
+      correct: "papucs orrán pamutbojt",
       wrong: [
-        "kék-fehér csíkos",
-        "piros pöttyös",
-        "égszínkék színű, felhő mintákkal",
+        "ötujjas kifordított kesztyű",
+        "szénakazal",
+        "torzonborz szemöldök",
       ],
     },
   },
   {
     question_string:
-      "1983-ban Foky Ottónak köszönhetően a TV Maci kis barátot is kapott. Ő volt:",
+      "Pom Pom történeteinek mesehősei mind képzeletbeli lények. Ki nem tartozik közéjük?",
     choices: {
-      correct: "Paprika Jancsi",
-      wrong: ["Böbe baba", "kicsi kacsa", "Keljfel Jancsi"],
+      correct: "Sebaj Tóbiás",
+      wrong: [
+        "Bátor Tintanyúl",
+        "Madárvédő Golyókapkodó",
+        "Festéktüsszentő Hapci Benő",
+      ],
     },
   },
   {
     question_string:
-      "A TV Maci olyan sikeres lett, hogy egy alkalommal együtt olvasott mesét Farkas Bertalannal...",
+      "Gombóc Artúr figurája különös népszerűségnek örvend mind a mai napig. De tudod-e, hogy milyen madár?",
     choices: {
-      correct: "a világűrben.",
-      wrong: ["Kínában.", "szabadesés közben.", "a Kalahári sivatagban."],
+      correct: "vetési varjú",
+      wrong: ["szárcsa", "fekete harkály", "nagy kárókatona"],
+    },
+  },
+  {
+    question_string: "Hogy hívták az iskolába igyekvő kislányt a sorozatban?",
+    choices: {
+      correct: "Picur",
+      wrong: ["Bogyó", "Babóca", "Pöttöm"],
+    },
+  },
+  {
+    question_string:
+      "Az egyik figurát Csukás István csak azért találta ki, hogy próbára tegye a rajzolót, Sajdik Ferencet. Melyik lehetett ez?",
+    choices: {
+      correct: "Lesbőltámadó Ruhaszárítókötél",
+      wrong: [
+        "Órarugógerincű felpattanó",
+        "Durrbele Bumm",
+        "Vastalpú Cölöpverö",
+      ],
     },
   },
 ];

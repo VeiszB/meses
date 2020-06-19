@@ -22,6 +22,7 @@ $gray-text: #2c2c2c;
 @import "mesehosok";
 @import "jatek";
 @import "tvmacikviz";
+@import "gombocarturkviz";
 
 @media screen and (max-width: 1382px) {
   .nav-content {
@@ -218,6 +219,38 @@ $gray-text: #2c2c2c;
     transform-origin: bottom;
   }
 
+  /* Mesehősök és alkotóik */
+  .mesehosok-header a img {
+    height: 10vh;
+    flex: 1 1 5rem;
+    margin: 0 2rem;
+  }
+
+  .mesehosok-header h1 {
+    flex: 1 1 10rem;
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    background: url("../img/felhő1.png");
+    background-size: 78%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .mesehosok-header h2 {
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 1px white;
+    padding: 1rem;
+  }
+
+  .retromesek {
+    height: 15rem;
+  }
+
+  .retromesek:hover {
+    height: 18rem;
+  }
+
   /* Tv Maci kvíz */
 
   #tvmacikvizheader {
@@ -230,7 +263,7 @@ $gray-text: #2c2c2c;
 
   #tvmacikvizheader a img {
     margin: auto;
-    height: 9vh;
+    height: 11vh;
   }
 
   #tv-maci-cim {
@@ -261,5 +294,16 @@ $gray-text: #2c2c2c;
     min-width: 100px;
     border-radius: 9999px;
     font-size: 1.6rem;
+  }
+
+  #quiz button {
+    display: block;
+    float: none;
+    margin: 1.5rem auto;
+    padding: 10px 15px;
+  }
+
+  #prev-question-button {
+    margin-bottom: 2rem;
   }
 }
