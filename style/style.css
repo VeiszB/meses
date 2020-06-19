@@ -350,6 +350,253 @@ footer img:hover {
   padding-bottom: 1rem;
 }
 
+.mesehosok-header {
+  width: 100%;
+  min-height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mesehosok-header a img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.mesehosok-header h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 4.8rem;
+  color: #1890a5;
+  text-shadow: 1px 1px 1px #cc3736;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  background: url("../img/felho.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.mesehosok-header h2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Teko", sans-serif;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #1890a5;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
+}
+
+.mesehosok-info {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.kocka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20rem;
+  height: 20rem;
+  margin: 2rem;
+  background-color: burlywood;
+  text-align: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  border-radius: 25%;
+  border: 1px solid #1890a5;
+  text-shadow: -1px 0 #1890a5, 0 1.5px #1890a5, 1px 0 #1890a5, 0 -1.5px #1890a5;
+}
+
+.kocka:hover {
+  width: 22rem;
+  height: 22rem;
+  color: #1890a5;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+.retromesek {
+  background: url("../img/felhő1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 2.5rem;
+  color: #1890a5;
+  text-shadow: none;
+}
+
+.retromesek:hover {
+  color: #cc3736;
+}
+
+.tvmaci {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/tvmacif.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/tvmacif.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mirrmurr {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/mirrmurrf.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/mirrmurrf.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ugrifules {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/ufrifulesf.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/ufrifulesf.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+}
+
+.misimokus {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/misimokusf.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/misimokusf.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+}
+
+.fokyotto {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/misimokusf.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/misimokusf.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+}
+
+.pompom {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/gombocartur.png");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/gombocartur.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+}
+
+.csukasistvan {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/csukasistvan.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/csukasistvan.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+}
+
+.sajdikferenc {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/sajdikferenc.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/sajdikferenc.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+}
+
+.benedekelek {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/benedekelek.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/benedekelek.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 2.5rem;
+}
+
+.bevezeto {
+  width: 80%;
+  margin: auto;
+  font-size: 2.2rem;
+  padding-top: 2.5rem;
+  color: #0d3d46;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.jatek-bev-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70vw;
+  margin: 1rem auto;
+}
+
+.cardj img {
+  height: 35vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+      img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  -webkit-animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+@keyframes img-shake {
+  from {
+    -webkit-transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
+  }
+  to {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+}
+
 @media screen and (max-width: 1382px) {
   .nav-content {
     width: 95vw;

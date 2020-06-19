@@ -1,0 +1,36 @@
+.bevezeto {
+  width: 80%;
+  margin: auto;
+  font-size: 2.2rem;
+  padding-top: 2.5rem;
+  color: #0d3d46;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.jatek-bev-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70vw;
+  margin: 1rem auto;
+}
+
+.cardj img {
+  height: 35vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+      img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  animation: img-shake 3s ease infinite alternate;
+  transform-origin: bottom;
+}
+
+@keyframes img-shake {
+  from {
+    transform: rotateZ(-3deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
