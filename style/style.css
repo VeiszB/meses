@@ -754,5 +754,30 @@ footer img:hover {
     float: none;
     margin: auto;
   }
+  /* JÁTÉK  bevezető aloldal */
+  .bevezeto {
+    width: 85%;
+    margin: auto;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    line-height: 1.2;
+  }
+  .jatek-bev-content {
+    width: 95vw;
+    margin: auto;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .cardj img {
+    height: 20vh;
+    width: auto;
+    /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+        img-shake 2.5s infinite ease alternate-reverse 2s;*/
+    -webkit-animation: img-shake 3s ease infinite alternate;
+            animation: img-shake 3s ease infinite alternate;
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
 }
 /*# sourceMappingURL=style.css.map */
