@@ -990,6 +990,202 @@ body {
   font-size: 2rem;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  font: 16px "Source Sans Pro", sans-serif;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  background: url("../img/hatter.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  display: table;
+  font-size: 62.5%;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#ugrifuleskvizheader {
+  width: 100%;
+  height: 20vh;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#ugrifuleskvizheader a img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+#quiz {
+  margin: -44px 50px 0px;
+  position: relative;
+  width: calc(100% - 100px);
+}
+
+#tv-maci-cim {
+  font-size: 8rem;
+  color: #1890a5;
+  font-family: "Passero One", cursive;
+  text-shadow: 1px 1px 1px #cc3736;
+}
+
+#tvmaci-bev {
+  font-size: 2rem;
+  color: #0f4c57;
+  font-family: "Montserrat", sans-serif;
+  margin: 3rem auto;
+}
+
+.tvmacitipp {
+  -webkit-animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+#quiz h1 {
+  font-weight: 600;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 44px;
+  margin: 1rem;
+  font-family: "Passero One", cursive;
+  color: #1890a5;
+  text-shadow: 1px 1px 1px #cc3736;
+}
+
+#quiz button {
+  float: right;
+  margin: 10px 0px 0px 10px;
+  padding: 8px 15px;
+  background: #9acfcc;
+  color: #00403c;
+  font-size: 1.6rem;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 9999px;
+}
+
+#quiz button:hover {
+  background: #36a39c;
+  color: #fff;
+}
+
+#quiz button:disabled {
+  opacity: 0.5;
+  background: #9acfcc;
+  color: #00403c;
+  cursor: default;
+}
+
+#question {
+  padding: 2rem;
+  background: #fafafa;
+  -webkit-box-shadow: 1px 1px 5px #1890a5;
+          box-shadow: 1px 1px 5px #1890a5;
+}
+
+#question h2 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #1890a5;
+  font-family: "Montserrat", sans-serif;
+}
+
+#question input[type="radio"] {
+  display: none;
+}
+
+#question label {
+  display: inline-block;
+  margin: 4px;
+  padding: 8px;
+  background: #c9e9f2;
+  color: #07276b;
+  width: calc(50% - 8px);
+  min-width: 100px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 9999px;
+}
+
+#question label:hover {
+  background: #4ba1b1;
+  color: white;
+}
+
+#question input[type="radio"]:checked + label {
+  background: #83ba41;
+  color: #fafafa;
+}
+
+#quiz-results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  background: #fafafa;
+  width: 100%;
+  height: calc(100% - 44px);
+}
+
+#quiz-results-message {
+  display: block;
+  color: #00403c;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#quiz-results-score {
+  display: block;
+  color: #31706c;
+  font-size: 2rem;
+}
+
+#quiz-results-score b {
+  color: #00403c;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 1382px) {
   .nav-content {
     width: 95vw;
@@ -1252,6 +1448,27 @@ body {
   }
   #prev-question-button {
     margin-bottom: 2rem;
+  }
+  /* A legkisebb ugrifüles kvíz */
+  #ugrifuleskvizheader {
+    width: 100%;
+    height: 15vh;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #ugrifuleskvizheader a img {
+    margin: auto;
+    height: 10vh;
+  }
+  #tv-maci-cim {
+    word-wrap: break-word;
+    width: 18rem;
+    font-size: 3.8rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

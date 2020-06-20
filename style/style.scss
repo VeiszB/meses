@@ -23,6 +23,9 @@ $gray-text: #2c2c2c;
 @import "jatek";
 @import "tvmacikviz";
 @import "gombocarturkviz";
+@import "mirrmurrkviz";
+@import "ugrifules";
+@import "misimokuskviz";
 
 @media screen and (max-width: 1382px) {
   .nav-content {
@@ -305,5 +308,26 @@ $gray-text: #2c2c2c;
 
   #prev-question-button {
     margin-bottom: 2rem;
+  }
+
+  /* A legkisebb ugrifüles kvíz */
+
+  #ugrifuleskvizheader {
+    width: 100%;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #ugrifuleskvizheader a img {
+    margin: auto;
+    height: 10vh;
+  }
+
+  #tv-maci-cim {
+    word-wrap: break-word;
+    width: 18rem;
+    font-size: 3.8rem;
   }
 }
