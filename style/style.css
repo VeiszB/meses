@@ -756,7 +756,7 @@ body {
   color: #fafafa;
 }
 
-#quiz-results {
+#tvm-quiz-results {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -770,28 +770,45 @@ body {
   position: absolute;
   top: 44px;
   left: 0px;
-  background: #fafafa;
+  background: #c9e9f2;
   width: 100%;
   height: calc(100% - 44px);
+  -webkit-box-shadow: 10px 10px 10px #31706c;
+          box-shadow: 10px 10px 10px #31706c;
+  border: 3px solid #188785;
 }
 
-#quiz-results-message {
+#tvm-quiz-results-message {
   display: block;
-  color: #00403c;
+  color: #188785;
   font-size: 2rem;
   font-weight: bold;
+  padding: 2rem;
 }
 
-#quiz-results-score {
+#tvm-quiz-results-score {
   display: block;
-  color: #31706c;
+  color: #188785;
   font-size: 2rem;
 }
 
-#quiz-results-score b {
-  color: #00403c;
+#tvm-quiz-results-score b {
+  color: #188785;
   font-weight: 600;
   font-size: 2rem;
+}
+
+#again-question-button a {
+  color: #00403c;
+  font-size: 1.6rem;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0;
+}
+
+#again-question-button a:hover {
+  color: white;
 }
 
 * {
@@ -1448,6 +1465,12 @@ body {
   }
   #prev-question-button {
     margin-bottom: 2rem;
+  }
+  #tvm-quiz-results {
+    height: 80%;
+  }
+  #quiz-results {
+    height: 80%;
   }
   /* A legkisebb ugrifüles kvíz */
   #ugrifuleskvizheader {
