@@ -1,0 +1,97 @@
+#rolunk-main {
+  width: 100%;
+  height: auto;
+  background-position: left;
+}
+
+#rolunk-footer {
+  position: relative;
+  bottom: 0;
+}
+
+.rolunk-header {
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rolunk-header a img {
+  flex: 2 1 20rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.rolunk-header h1 {
+  flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 3.6rem;
+  color: rgb(24, 144, 165);
+  text-shadow: 1px 1px 1px #cc3736;
+  transition: font-size 1s;
+  background: url("../img/felho.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.rolunk-header h2 {
+  flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 3rem;
+  color: rgb(24, 144, 165);
+  text-shadow: 1px 1px 1px white;
+  padding-right: 5rem;
+}
+
+#rolunk-content {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 2rem 1rem;
+  /*;background-color: rgba(255, 255, 255, 0.37);*/
+  background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+  border-radius: 3%;
+}
+
+.rolunk-mese p {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.img-right {
+  position: relative;
+  width: 50%;
+  height: auto;
+  float: right;
+  padding: 1vw;
+}
+
+.img-left {
+  position: relative;
+  width: 50%;
+  height: auto;
+  float: left;
+  padding: 1vw;
+}
+
+.mata-img {
+  position: relative;
+  width: 30%;
+  height: auto;
+  float: left;
+  padding: 1vw;
+}
+
+#rolunk-szerzo {
+  text-align: right;
+  font-size: 1.8rem;
+}

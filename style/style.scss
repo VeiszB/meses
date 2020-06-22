@@ -26,6 +26,7 @@ $gray-text: #2c2c2c;
 @import "mirrmurrkviz";
 @import "ugrifules";
 @import "misimokuskviz";
+@import "rolunk";
 
 @media screen and (max-width: 1382px) {
   .nav-content {
@@ -197,6 +198,10 @@ $gray-text: #2c2c2c;
     margin: auto;
   }
 
+  strong {
+    font-size: 1.2rem;
+  }
+
   /* JÁTÉK  bevezető aloldal */
 
   .bevezeto {
@@ -208,9 +213,9 @@ $gray-text: #2c2c2c;
   }
 
   .jatek-bev-content {
-    width: 95vw;
+    width: 90vw;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .cardj img {
@@ -220,6 +225,61 @@ $gray-text: #2c2c2c;
         img-shake 2.5s infinite ease alternate-reverse 2s;*/
     animation: img-shake 3s ease infinite alternate;
     transform-origin: bottom;
+    padding-bottom: 0rem;
+  }
+
+  .utasitas {
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    font-weight: 600;
+  }
+
+  /* Rólunk bevezető aloldal */
+
+  #rolunk-main {
+    background-position: center;
+  }
+
+  #rolunk-content {
+    border-radius: 0%;
+  }
+
+  .rolunk-header {
+    justify-content: space-between;
+  }
+
+  .rolunk-header a img {
+    flex: 1 1 5rem;
+    margin: 0rem 2rem;
+    height: 10vh;
+    width: auto;
+  }
+
+  .rolunk-header h1 {
+    flex: 1 1 10rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2.8rem;
+    background: url("../img/felhő1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .rolunk-header h2 {
+    flex: 1 1 30rem;
+    font-family: "Passero One", cursive;
+    font-size: 2.4rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .mata-img {
+    width: 100%;
+  }
+
+  #rolunk-szerzo {
+    font-size: 1.6rem;
   }
 
   /* Mesehősök és alkotóik */
