@@ -659,7 +659,6 @@ body {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 2rem;
 }
 
 #tvmacikvizheader a img {
@@ -1029,6 +1028,11 @@ body {
   font-size: 2rem;
 }
 
+#gombocartur-kviz-footer {
+  position: fixed;
+  bottom: 0;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -1086,7 +1090,7 @@ body {
   width: calc(100% - 100px);
 }
 
-#tv-maci-cim {
+#ugrifules-cim {
   font-size: 8rem;
   color: #1890a5;
   font-family: "Passero One", cursive;
@@ -1499,6 +1503,665 @@ body {
           box-shadow: 2px 2px 2px #106270;
 }
 
+#mirrmurr-tablo-main {
+  width: 100%;
+  height: auto;
+  background-position: left;
+}
+
+.mirrmurr-tablo-header {
+  width: 100%;
+  min-height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mirrmurr-tablo-header a img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.mirrmurr-tablo-header h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 4.8rem;
+  color: #1890a5;
+  text-shadow: 1px 1px 1px #cc3736;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  background: url("../img/felho.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.mirrmurr-tablo-header h2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #1890a5;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
+}
+
+#mirrmurr-tablo-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.mirrmurr-tablo-text {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  width: 90%;
+  height: auto;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  /*;background-color: rgba(255, 255, 255, 0.37);*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
+  background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+  border-radius: 3%;
+}
+
+.mirrmurrtablo-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.mirrmurr-tablo-text p {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.cardtablo img {
+  height: 70vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+          img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  -webkit-animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  padding-bottom: 3.5rem;
+}
+
+@keyframes img-shake {
+  from {
+    -webkit-transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
+  }
+  to {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+}
+
+#mirrmurr-tablo-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.mirrmurr-visszbtn {
+  display: block;
+  font-size: 2.4rem;
+  font-family: "Passero One", cursive;
+  margin-top: 2rem;
+  background: #9acfcc;
+  color: #1890a5;
+  border-radius: 9999px;
+  padding: 1rem;
+  text-shadow: 1px 1px 1px white;
+  width: calc(30% - 10px);
+  margin: auto;
+}
+
+.mirrmurr-visszbtn:hover {
+  background: #1c9db4;
+  color: white;
+  text-shadow: 2px 2px 2px #106270;
+  -webkit-box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
+}
+
+#ugrifules-tablo-main {
+  width: 100%;
+  height: auto;
+  background-position: left;
+}
+
+.ugrifules-tablo-header {
+  width: 100%;
+  min-height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ugrifules-tablo-header a img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.ugrifules-tablo-header h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 4.8rem;
+  color: #1890a5;
+  text-shadow: 1px 1px 1px #cc3736;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  background: url("../img/felho.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.ugrifules-tablo-header h2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #1890a5;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
+}
+
+#ugrifules-tablo-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.ugrifules-tablo-text {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  width: 90%;
+  height: auto;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  /*;background-color: rgba(255, 255, 255, 0.37);*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
+  background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+  border-radius: 3%;
+}
+
+.ugrifulestablo-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.ugrifules-tablo-text p {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.cardtablo img {
+  height: 70vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+          img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  -webkit-animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  padding-bottom: 3.5rem;
+}
+
+@keyframes img-shake {
+  from {
+    -webkit-transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
+  }
+  to {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+}
+
+#ugrifules-tablo-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.ugrifules-visszbtn {
+  display: block;
+  font-size: 2.4rem;
+  font-family: "Passero One", cursive;
+  margin-top: 2rem;
+  background: #9acfcc;
+  color: #1890a5;
+  border-radius: 9999px;
+  padding: 1rem;
+  text-shadow: 1px 1px 1px white;
+  width: calc(30% - 10px);
+  margin: auto;
+}
+
+.ugrifules-visszbtn:hover {
+  background: #1c9db4;
+  color: white;
+  text-shadow: 2px 2px 2px #106270;
+  -webkit-box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
+}
+
+#misimokus-tablo-main {
+  width: 100%;
+  height: auto;
+  background-position: left;
+}
+
+.misimokus-tablo-header {
+  width: 100%;
+  min-height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.misimokus-tablo-header a img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.misimokus-tablo-header h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 4.8rem;
+  color: #1890a5;
+  text-shadow: 1px 1px 1px #cc3736;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  background: url("../img/felho.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.misimokus-tablo-header h2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #1890a5;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
+}
+
+#misimokus-tablo-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.misimokus-tablo-text {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  width: 90%;
+  height: auto;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  /*;background-color: rgba(255, 255, 255, 0.37);*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
+  background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+  border-radius: 3%;
+}
+
+.misimokustablo-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.misimokus-tablo-text p {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#misimokus-idézet {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#misimokus-idézet-meta {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.cardtablo img {
+  height: 70vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+          img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  -webkit-animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  padding-bottom: 3.5rem;
+}
+
+@keyframes img-shake {
+  from {
+    -webkit-transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
+  }
+  to {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+}
+
+#misimokus-tablo-footer {
+  position: relative;
+  bottom: 0;
+}
+
+.misimokus-visszbtn {
+  display: block;
+  font-size: 2.4rem;
+  font-family: "Passero One", cursive;
+  margin-top: 2rem;
+  background: #9acfcc;
+  color: #1890a5;
+  border-radius: 9999px;
+  padding: 1rem;
+  text-shadow: 1px 1px 1px white;
+  width: calc(30% - 10px);
+  margin: auto;
+}
+
+.misimokus-visszbtn:hover {
+  background: #1c9db4;
+  color: white;
+  text-shadow: 2px 2px 2px #106270;
+  -webkit-box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
+}
+
+#gombocartur-tablo-main {
+  width: 100%;
+  height: auto;
+  background-position: left;
+}
+
+.gombocartur-tablo-header {
+  width: 100%;
+  min-height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gombocartur-tablo-header a img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.gombocartur-tablo-header h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 4.8rem;
+  color: #1890a5;
+  text-shadow: 1px 1px 1px #cc3736;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  background: url("../img/felho.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.gombocartur-tablo-header h2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #1890a5;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
+}
+
+#gombocartur-tablo-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.gombocartur-tablo-text {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  width: 90%;
+  height: auto;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  /*;background-color: rgba(255, 255, 255, 0.37);*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
+  background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+  border-radius: 3%;
+}
+
+.gombocarturtablo-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.gombocartur-tablo-text p {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#gombocartur-idezet {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.cardtablo img {
+  height: 70vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+          img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  -webkit-animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  padding-bottom: 3.5rem;
+}
+
+@keyframes img-shake {
+  from {
+    -webkit-transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
+  }
+  to {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+}
+
+#gombocartur-tablo-footer {
+  position: relative;
+}
+
+.gombocartur-visszbtn {
+  display: block;
+  font-size: 2.4rem;
+  font-family: "Passero One", cursive;
+  margin-top: 2rem;
+  background: #9acfcc;
+  color: #1890a5;
+  border-radius: 9999px;
+  padding: 1rem;
+  text-shadow: 1px 1px 1px white;
+  width: calc(30% - 10px);
+  margin: auto;
+}
+
+.gombocartur-visszbtn:hover {
+  background: #1c9db4;
+  color: white;
+  text-shadow: 2px 2px 2px #106270;
+  -webkit-box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
+}
+
 @media screen and (max-width: 1382px) {
   .nav-content {
     width: 95vw;
@@ -1847,15 +2510,16 @@ body {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin: 1rem auto;
   }
   #ugrifuleskvizheader a img {
     margin: auto;
     height: 10vh;
   }
-  #tv-maci-cim {
+  #ugrifules-cim {
     word-wrap: break-word;
     width: 13rem;
-    font-size: 3.8rem;
+    font-size: 3.2rem;
   }
   /* TV Maci tabló */
   #tvmaci-tablo-main {
@@ -1904,6 +2568,237 @@ body {
     margin-top: 2rem;
   }
   #tvmaci-tablo-footer {
+    position: relative;
+  }
+  /* Gombóc Artúr kvíz */
+  #gombocartur-kviz-footer {
+    position: relative;
+  }
+  /* Mirr-Murr tabló */
+  #mirrmurr-tablo-main {
+    background-position: center;
+  }
+  .mirrmurr-tablo-header {
+    width: 90%;
+    height: 15vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2rem auto;
+  }
+  .mirrmurr-tablo-header a img {
+    margin: auto;
+    height: 11vh;
+  }
+  #mirrmurr-logoimg {
+    height: 9vh;
+    width: auto;
+  }
+  .mirrmurr-tablo-header h1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
+    font-size: 2.8rem;
+    padding: 2.5rem;
+    background: url("../img/felhő1.png");
+    background-size: 76%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .mirrmurr-tablo-header h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+  .mirrmurr-tablo-text {
+    border-radius: 0;
+    font-size: 1.8rem;
+  }
+  .mirrmurr-visszbtn {
+    width: calc(60% - 10px);
+    margin-top: 2rem;
+  }
+  #mirrmurr-tablo-footer {
+    position: relative;
+  }
+  /* UGRIFÜLES tabló */
+  #ugrifules-tablo-main {
+    background-position: center;
+  }
+  .ugrifules-tablo-header {
+    width: 90%;
+    height: 25vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem auto;
+  }
+  .ugrifules-tablo-header a img {
+    margin: auto;
+    height: 11vh;
+  }
+  #ugrifules-logoimg {
+    height: 9vh;
+    width: auto;
+  }
+  .ugrifules-tablo-header h1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
+    font-size: 2.8rem;
+    padding: 2.5rem;
+    background: url("../img/felhő1.png");
+    background-size: 76%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .ugrifules-tablo-header h2 {
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+  }
+  .ugrifules-tablo-text {
+    border-radius: 0;
+    font-size: 1.8rem;
+  }
+  .ugrifules-visszbtn {
+    width: calc(60% - 10px);
+    margin-top: 2rem;
+  }
+  #ugrifules-tablo-footer {
+    position: relative;
+  }
+  /* MISI MÓKUS tabló */
+  #misimokus-tablo-main {
+    background-position: center;
+  }
+  .misimokus-tablo-header {
+    width: 90%;
+    height: 25vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem auto;
+  }
+  .misimokus-tablo-header a img {
+    margin: auto;
+    height: 11vh;
+  }
+  #misimokus-logoimg {
+    height: 9vh;
+    width: auto;
+  }
+  .misimokus-tablo-header h1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
+    font-size: 2.8rem;
+    padding: 2.5rem;
+    background: url("../img/felhő1.png");
+    background-size: 76%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .misimokus-tablo-header h2 {
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+  }
+  .misimokus-tablo-text {
+    border-radius: 0;
+    font-size: 1.8rem;
+  }
+  #misimokus-idézet {
+    font-size: 1.2rem;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+  #misimokus-idézet-meta {
+    font-size: 1.5rem;
+    padding: 1rem;
+    line-height: 1.5;
+    font-variant: small-caps;
+  }
+  .misimokus-visszbtn {
+    width: calc(60% - 10px);
+    margin-top: 2rem;
+  }
+  #misimokus-tablo-footer {
+    position: relative;
+  }
+  /* GOMBÓC ARTÚR tabló */
+  #gombocartur-tablo-main {
+    background-position: center;
+  }
+  .gombocartur-tablo-header {
+    width: 90%;
+    height: 25vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem auto;
+  }
+  .gombocartur-tablo-header a img {
+    margin: auto;
+    height: 11vh;
+  }
+  #gombocartur-logoimg {
+    height: 9vh;
+    width: auto;
+  }
+  .gombocartur-tablo-header h1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
+    font-size: 2.8rem;
+    padding: 2.5rem;
+    background: url("../img/felhő1.png");
+    background-size: 76%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .gombocartur-tablo-header h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .gombocarturtablo-card {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #gombocarturtablo-cardimg {
+    width: 80vw;
+    height: auto;
+  }
+  .gombocartur-tablo-text {
+    border-radius: 0;
+    font-size: 1.8rem;
+  }
+  #gombocartur-idézet {
+    font-size: 1.2rem;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+  #gombocartur-idézet-meta {
+    font-size: 1.5rem;
+    padding: 1rem;
+    line-height: 1.5;
+    font-variant: small-caps;
+  }
+  .gombocartur-visszbtn {
+    width: calc(60% - 10px);
+    margin-top: 2rem;
+  }
+  #gombocartur-tablo-footer {
     position: relative;
   }
 }

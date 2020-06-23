@@ -1,0 +1,133 @@
+#gombocartur-tablo-main {
+  width: 100%;
+  height: auto;
+  background-position: left;
+}
+
+.gombocartur-tablo-header {
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gombocartur-tablo-header a img {
+  flex: 2 1 20rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.gombocartur-tablo-header h1 {
+  flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 4.8rem;
+  color: rgb(24, 144, 165);
+  text-shadow: 1px 1px 1px #cc3736;
+  transition: font-size 1s;
+  background: url("../img/felho.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.gombocartur-tablo-header h2 {
+  flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: rgb(24, 144, 165);
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
+}
+
+#gombocartur-tablo-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.gombocartur-tablo-text {
+  flex: 2 1 20rem;
+  width: 90%;
+  height: auto;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  /*;background-color: rgba(255, 255, 255, 0.37);*/
+  background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+  border-radius: 3%;
+}
+
+.gombocarturtablo-card {
+  flex: 1 1 20rem;
+  align-items: left;
+}
+
+.gombocartur-tablo-text p {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#gombocartur-idezet {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.cardtablo img {
+  height: 70vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+          img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  animation: img-shake 3s ease infinite alternate;
+  transform-origin: bottom;
+  padding-bottom: 3.5rem;
+}
+
+@keyframes img-shake {
+  from {
+    transform: rotateZ(-3deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+
+#gombocartur-tablo-footer {
+  position: relative;
+}
+
+.gombocartur-visszbtn {
+  display: block;
+  font-size: 2.4rem;
+  font-family: "Passero One", cursive;
+  margin-top: 2rem;
+  background: #9acfcc;
+  color: rgb(24, 144, 165);
+  border-radius: 9999px;
+  padding: 1rem;
+  text-shadow: 1px 1px 1px white;
+  width: calc(30% - 10px);
+  margin: auto;
+}
+
+.gombocartur-visszbtn:hover {
+  background: rgb(28, 157, 180);
+  color: white;
+  text-shadow: 2px 2px 2px rgb(16, 98, 112);
+  box-shadow: 2px 2px 2px rgb(16, 98, 112);
+}
