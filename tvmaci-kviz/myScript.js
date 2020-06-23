@@ -139,11 +139,14 @@ Quiz.prototype.render = function (container) {
     if (percentage === 1) {
       message = "Mesés eredmény!";
     } else if (percentage >= 0.75) {
-      message = "Ügyes vagy!";
+      message =
+        "Ügyes vagy! A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
     } else if (percentage >= 0.5) {
-      message = "Legközelebb jobban sikerül.";
+      message =
+        "Legközelebb jobban sikerül. A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
     } else {
-      message = "Próbáld meg újra. A mesehős tippet adhat.";
+      message =
+        "A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
     }
     $("#tvm-quiz-results-message").text(message);
     $("#tvm-quiz-results-score").html(

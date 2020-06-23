@@ -2,46 +2,42 @@
 var all_questions = [
   {
     question_string:
-      "A TV Maci születésnapja 1964. október 23. De vajon ki találta ki a maci figuráját?",
+      "Minek készült eredetileg Tersánszky Józsi Jenő, a Misi Mókus megalkotója?",
     choices: {
-      correct: "Bálint Ágnes",
-      wrong: ["Nemes Nagy Ágnes", "Bálint gazda", "Tévé Márton"],
+      correct: "festőművésznek",
+      wrong: ["artistának", "jogásznak", "színésznek"],
     },
   },
   {
-    question_string:
-      "A második változat Knoch Aurél tervei alapján készült. Megtanult még...",
+    question_string: "Mi volt Tersánszky Józsi Jenő első kötetének a címe?",
     choices: {
-      correct: "gitározni is.",
-      wrong: ["dobolni is.", "trombitálni is.", "zongorázni is."],
+      correct: "Kakuk Marci",
+      wrong: ["Misi Mókus", "Mese a buta nyúlról", "Jancsi, a csacsi"],
     },
   },
   {
-    question_string:
-      "A TV Maci először 1983-ban vette fel máig jól ismert pizsamáját. De milyen is volt ez a pizsi? Fel tudod idézni?",
+    question_string: "Melyik idézet származik a Misi Mókus főcímdalából?",
     choices: {
-      correct: "almazöld színű",
+      correct: "Törve jó a dió, mogyoró,  Terem itt az erdőn millió,",
       wrong: [
-        "kék-fehér csíkos",
-        "piros pöttyös",
-        "égszínkék színű, felhő mintákkal",
+        "Legszentebb dolog a barátság  Többet ér, mint minden királyság",
+        "Tréfa senkit meg nem bánthat,  s néhány dolgot helyrerak!",
+        "Ha itt a nyár, ugye komám  A szív a víznek szalutál",
       ],
     },
   },
   {
-    question_string:
-      "1983-ban Foky Ottónak köszönhetően a TV Maci kis barátot is kapott. Ő volt:",
+    question_string: "Ki nem szerepel a Misi Mókus kalandjaiban?",
     choices: {
-      correct: "Paprika Jancsi",
-      wrong: ["Böbe baba", "kicsi kacsa", "Keljfel Jancsi"],
+      correct: "Kukori",
+      wrong: ["Dániel", "Ottmár", "Sámuel"],
     },
   },
   {
-    question_string:
-      "A TV Maci olyan sikeres lett, hogy egy alkalommal együtt olvasott mesét Farkas Bertalannal...",
+    question_string: "Milyen színű Misi Mókus farkincája?",
     choices: {
-      correct: "a világűrben.",
-      wrong: ["Kínában.", "szabadesés közben.", "a Kalahári sivatagban."],
+      correct: "fekete",
+      wrong: ["sötétkék", "világosbarna", "mustársárga"],
     },
   },
 ];
@@ -96,6 +92,7 @@ Quiz.prototype.render = function (container) {
       }
     }
     $("#submit-button").prop("disabled", !all_questions_answered);
+    $("#again-question-button").hide();
   }
 
   // Render the first question
@@ -136,24 +133,32 @@ Quiz.prototype.render = function (container) {
     console.log(percentage);
     var message;
     if (percentage === 1) {
-      message = "Great job!";
+      message = "Mesés eredmény!";
     } else if (percentage >= 0.75) {
-      message = "You did alright.";
+      message =
+        "Ügyes vagy! A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
     } else if (percentage >= 0.5) {
-      message = "Better luck next time.";
+      message =
+        "Legközelebb jobban sikerül. A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
     } else {
-      message = "Maybe you should try a little harder.";
+      message =
+        "A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
     }
-    $("#quiz-results-message").text(message);
-    $("#quiz-results-score").html(
-      "You got <b>" +
+    $("#tvm-quiz-results-message").text(message);
+    $("#tvm-quiz-results-score").html(
+      "Eredményed: <b>" +
         score +
         "/" +
         self.questions.length +
-        "</b> questions correct."
+        "</b> helyes válasz."
     );
-    $("#quiz-results").slideDown();
-    $("#quiz button").slideUp();
+    $("#tvm-quiz-results").slideDown();
+    $("#again-question-button").slideDown();
+    $("#next-question-button").hide();
+    $("#prev-question-button").hide();
+    $("#submit-button").hide();
+
+    /*$("#quiz button").slideUp();*/
   });
 
   // Add a listener on the questions container to listen for user select changes. This is for determining whether we can submit answers or not.

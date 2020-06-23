@@ -6,16 +6,6 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  background: url("../img/hatter.png");
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-}
-
 html {
   display: table;
   font-size: 62.5%;
@@ -32,11 +22,12 @@ body {
   display: inline-flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 2rem;
 }
 
 #tvmacikvizheader a img {
   flex: 1 1 10rem;
-  margin: 0rem 5rem;
+  margin: auto;
   height: 12vh;
   width: auto;
 }
@@ -132,6 +123,7 @@ body {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   border-radius: 9999px;
+  font-size: 2rem;
 }
 
 #question label:hover {
@@ -140,7 +132,7 @@ body {
 }
 
 #question input[type="radio"]:checked + label {
-  background: #83ba41;
+  background: #4176ba;
   color: #fafafa;
 }
 

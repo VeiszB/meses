@@ -638,16 +638,6 @@ footer {
           box-sizing: border-box;
 }
 
-html,
-body {
-  background: url("../img/hatter.png");
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-}
-
 html {
   display: table;
   font-size: 62.5%;
@@ -669,13 +659,14 @@ body {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 2rem;
 }
 
 #tvmacikvizheader a img {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 10rem;
           flex: 1 1 10rem;
-  margin: 0rem 5rem;
+  margin: auto;
   height: 12vh;
   width: auto;
 }
@@ -774,6 +765,7 @@ body {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   border-radius: 9999px;
+  font-size: 2rem;
 }
 
 #question label:hover {
@@ -782,7 +774,7 @@ body {
 }
 
 #question input[type="radio"]:checked + label {
-  background: #83ba41;
+  background: #4176ba;
   color: #fafafa;
 }
 
@@ -1344,6 +1336,169 @@ body {
   font-size: 1.8rem;
 }
 
+#tvmaci-tablo-main {
+  width: 100%;
+  height: auto;
+  background-position: left;
+}
+
+#kiallitas-footer {
+  position: relative;
+  bottom: 0;
+}
+
+.tvmaci-tablo-header {
+  width: 100%;
+  min-height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tvmaci-tablo-header a img {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  margin: 0rem 5rem;
+  height: 12vh;
+  width: auto;
+}
+
+.tvmaci-tablo-header h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  padding: 4.5rem;
+  text-align: center;
+  font-size: 4.8rem;
+  color: #1890a5;
+  text-shadow: 1px 1px 1px #cc3736;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  background: url("../img/felho.png");
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.tvmaci-tablo-header h2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  font-family: "Passero One", cursive;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #1890a5;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff;
+}
+
+#tvmaci-tablo-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.tvmaci-tablo-text {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+  width: 90%;
+  height: auto;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  /*;background-color: rgba(255, 255, 255, 0.37);*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
+  background: linear-gradient(to bottom, #1890a538, #ffffffc2);
+  border-radius: 3%;
+}
+
+.tvmacitablo-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.tvmaci-tablo-text p {
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #11525e;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.cardtablo img {
+  height: 70vh;
+  width: auto;
+  /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
+        img-shake 2.5s infinite ease alternate-reverse 2s;*/
+  -webkit-animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  padding-bottom: 3.5rem;
+}
+
+@keyframes img-shake {
+  from {
+    -webkit-transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
+  }
+  to {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+}
+
+#tvmaci-tablo-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.tvmaci-visszbtn {
+  display: block;
+  font-size: 2.4rem;
+  font-family: "Passero One", cursive;
+  margin-top: 2rem;
+  background: #9acfcc;
+  color: #1890a5;
+  border-radius: 9999px;
+  padding: 1rem;
+  text-shadow: 1px 1px 1px white;
+  width: calc(30% - 10px);
+  margin: auto;
+}
+
+.tvmaci-visszbtn:hover {
+  background: #1c9db4;
+  color: white;
+  text-shadow: 2px 2px 2px #106270;
+  -webkit-box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
+}
+
 @media screen and (max-width: 1382px) {
   .nav-content {
     width: 95vw;
@@ -1623,10 +1778,19 @@ body {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin: 0;
+  }
+  #tvmaci-logo {
+    height: 10vh;
+    width: auto;
   }
   #tvmacikvizheader a img {
     margin: auto;
     height: 11vh;
+  }
+  #tvmaci-logoimg {
+    height: 9vh;
+    width: auto;
   }
   #tv-maci-cim {
     font-size: 3.4rem;
@@ -1647,11 +1811,11 @@ body {
   }
   #question label {
     margin: 4px;
-    padding: 8px;
+    padding: 9px;
     width: calc(50% - 8px);
     min-width: 100px;
     border-radius: 9999px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   #quiz button {
     display: block;
@@ -1667,6 +1831,10 @@ body {
   }
   #quiz-results {
     height: 80%;
+  }
+  #tvmaci-footer {
+    position: absolute;
+    bottom: 0px;
   }
   /* A legkisebb ugrifüles kvíz */
   #ugrifuleskvizheader {
@@ -1686,8 +1854,57 @@ body {
   }
   #tv-maci-cim {
     word-wrap: break-word;
-    width: 18rem;
+    width: 13rem;
     font-size: 3.8rem;
+  }
+  /* TV Maci tabló */
+  #tvmaci-tablo-main {
+    background-position: center;
+  }
+  .tvmaci-tablo-header {
+    width: 90%;
+    height: 15vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2rem auto;
+  }
+  .tvmaci-tablo-header a img {
+    margin: auto;
+    height: 11vh;
+  }
+  #tvmaci-logoimg {
+    height: 9vh;
+    width: auto;
+  }
+  .tvmaci-tablo-header h1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
+    font-size: 2.8rem;
+    padding: 2.5rem;
+    background: url("../img/felhő1.png");
+    background-size: 76%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .tvmaci-tablo-header h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+  .tvmaci-tablo-text {
+    border-radius: 0;
+    font-size: 1.8rem;
+  }
+  .tvmaci-visszbtn {
+    width: calc(60% - 10px);
+    margin-top: 2rem;
+  }
+  #tvmaci-tablo-footer {
+    position: relative;
   }
 }
 /*# sourceMappingURL=style.css.map */

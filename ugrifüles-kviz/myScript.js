@@ -2,46 +2,44 @@
 var all_questions = [
   {
     question_string:
-      "A TV Maci születésnapja 1964. október 23. De vajon ki találta ki a maci figuráját?",
+      "Melyik Csukás István történetben találkozhattunk először Ugrifülessel?",
     choices: {
-      correct: "Bálint Ágnes",
-      wrong: ["Nemes Nagy Ágnes", "Bálint gazda", "Tévé Márton"],
-    },
-  },
-  {
-    question_string:
-      "A második változat Knoch Aurél tervei alapján készült. Megtanult még...",
-    choices: {
-      correct: "gitározni is.",
-      wrong: ["dobolni is.", "trombitálni is.", "zongorázni is."],
-    },
-  },
-  {
-    question_string:
-      "A TV Maci először 1983-ban vette fel máig jól ismert pizsamáját. De milyen is volt ez a pizsi? Fel tudod idézni?",
-    choices: {
-      correct: "almazöld színű",
+      correct: "Téli tücsök meséi",
       wrong: [
-        "kék-fehér csíkos",
-        "piros pöttyös",
-        "égszínkék színű, felhő mintákkal",
+        "Egy szürke kiscsacsi",
+        "Mirr-Murr, a kandúr",
+        "Szegény Gombóc Artúr",
       ],
     },
   },
   {
-    question_string:
-      "1983-ban Foky Ottónak köszönhetően a TV Maci kis barátot is kapott. Ő volt:",
+    question_string: "Ki a legkisebb Ugrifüles barátja?",
     choices: {
-      correct: "Paprika Jancsi",
-      wrong: ["Böbe baba", "kicsi kacsa", "Keljfel Jancsi"],
+      correct: "Tüskéshátú",
+      wrong: ["Mirr-Murr", "A bátor Tintanyúl", "Oriza-Triznyák"],
+    },
+  },
+  {
+    question_string: "Ki volt Ugrifüles szinkronhangja?",
+    choices: {
+      correct: "Márton András",
+      wrong: ["Halász Judit", "Haumann Péter", "Gálvölgyi János"],
     },
   },
   {
     question_string:
-      "A TV Maci olyan sikeres lett, hogy egy alkalommal együtt olvasott mesét Farkas Bertalannal...",
+      "A mesefilm forgatása során hányszor kellett beállítani a bábot, hogy úgy tűnjön, lépett egyet?",
     choices: {
-      correct: "a világűrben.",
-      wrong: ["Kínában.", "szabadesés közben.", "a Kalahári sivatagban."],
+      correct: "24-szer",
+      wrong: ["4-szer", "12-szer", "20-szor"],
+    },
+  },
+  {
+    question_string:
+      "Melyik évben indult el világot látni a legkisebb Ugrifüles?",
+    choices: {
+      correct: "1975",
+      wrong: ["1985", "1970", "1980"],
     },
   },
 ];

@@ -1,47 +1,42 @@
 // Array of all the questions and choices to populate the questions. This might be saved in some JSON file or a database and we would have to read the data in.
 var all_questions = [
   {
-    question_string:
-      "A TV Maci születésnapja 1964. október 23. De vajon ki találta ki a maci figuráját?",
+    question_string: "Milyen állat Mirr-Murr?",
     choices: {
-      correct: "Bálint Ágnes",
-      wrong: ["Nemes Nagy Ágnes", "Bálint gazda", "Tévé Márton"],
+      correct: "rátarti macska",
+      wrong: ["harapós kutya", "morgós medve", "csökönyös szamár"],
     },
   },
   {
-    question_string:
-      "A második változat Knoch Aurél tervei alapján készült. Megtanult még...",
+    question_string: "Mirr-Murr mit visel mindig magán a mesében?",
     choices: {
-      correct: "gitározni is.",
-      wrong: ["dobolni is.", "trombitálni is.", "zongorázni is."],
+      correct: "sárga csokornyakkendőt",
+      wrong: ["fekete kalapot", "csíkos pulóvert", "fekete sétapácát"],
     },
   },
   {
-    question_string:
-      "A TV Maci először 1983-ban vette fel máig jól ismert pizsamáját. De milyen is volt ez a pizsi? Fel tudod idézni?",
+    question_string: "Ki írta a Mir-Murr meséket",
     choices: {
-      correct: "almazöld színű",
+      correct: "Csukás István",
+      wrong: ["Benedek Elek", "Kormos István", "Zelk Zoltán"],
+    },
+  },
+  {
+    question_string: "Mi a Mirr-Murr mesékből készült sorozat műfaja?",
+    choices: {
+      correct: "bábfilm",
+      wrong: ["rajzfilm", "anime", "kalandfilm"],
+    },
+  },
+  {
+    question_string: "Miből készült a bábok feje és teste?",
+    choices: {
+      correct: "fából vagy parafából",
       wrong: [
-        "kék-fehér csíkos",
-        "piros pöttyös",
-        "égszínkék színű, felhő mintákkal",
+        "ólomdrót kötegből",
+        "szilikongumiból vagy bőrből",
+        "különféle textíliából",
       ],
-    },
-  },
-  {
-    question_string:
-      "1983-ban Foky Ottónak köszönhetően a TV Maci kis barátot is kapott. Ő volt:",
-    choices: {
-      correct: "Paprika Jancsi",
-      wrong: ["Böbe baba", "kicsi kacsa", "Keljfel Jancsi"],
-    },
-  },
-  {
-    question_string:
-      "A TV Maci olyan sikeres lett, hogy egy alkalommal együtt olvasott mesét Farkas Bertalannal...",
-    choices: {
-      correct: "a világűrben.",
-      wrong: ["Kínában.", "szabadesés közben.", "a Kalahári sivatagban."],
     },
   },
 ];
