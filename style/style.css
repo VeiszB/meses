@@ -301,6 +301,10 @@ footer img:hover {
   bottom: 0;
 }
 
+#kiallitas-alcim {
+  font-family: "Teko", sans-serif;
+}
+
 .kiallitas-content {
   width: 90%;
   height: auto;
