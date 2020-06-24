@@ -33,6 +33,9 @@ $gray-text: #2c2c2c;
 @import "misimokustablo";
 @import "gombocarturtablo";
 @import "tvmaci_jutalom";
+@import "mirrmurr_jutalom";
+@import "ugrifuleskviz";
+@import "ugrifules_jutalom";
 
 @media screen and (max-width: 1382px) {
   .nav-content {
@@ -481,6 +484,14 @@ $gray-text: #2c2c2c;
     position: relative;
   }
 
+  #mirrmurr-kviz-footer {
+    position: relative;
+  }
+
+  #ugrifules-kviz-footer {
+    position: relative;
+  }
+
   /* Mirr-Murr tabló */
 
   #mirrmurr-tablo-main {
@@ -735,5 +746,19 @@ $gray-text: #2c2c2c;
 
   strong {
     font-size: 1.5rem;
+  }
+
+  /* Mirr Murr jutalom */
+  .korcsolya {
+    float: none;
+    margin: 1rem;
+  }
+
+  /* Ugrifüles jutalom */
+  .lo {
+    float: none;
+    width: 25rem;
+    height: auto;
+    margin: auto;
   }
 }

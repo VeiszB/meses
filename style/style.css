@@ -1046,6 +1046,11 @@ body {
   bottom: 0;
 }
 
+#mirrmurr-kviz-footer {
+  position: fixed;
+  bottom: 0;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -2182,6 +2187,37 @@ body {
   margin-right: 5rem;
 }
 
+.korcsolya {
+  float: right;
+  width: 30rem;
+  height: auto;
+  margin: 5rem;
+}
+
+#ugrifules-cim {
+  font-size: 7rem;
+}
+
+#ugrifules-kviz-footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.lo {
+  float: right;
+  width: 25rem;
+  height: auto;
+  margin: 5rem 2rem;
+}
+
+#ugrifüles_jutalom_h2 {
+  font-size: 3rem;
+}
+
+#ugrifüles_jutalom_header {
+  height: 25vh;
+}
+
 @media screen and (max-width: 1382px) {
   .nav-content {
     width: 95vw;
@@ -2594,6 +2630,12 @@ body {
   #gombocartur-kviz-footer {
     position: relative;
   }
+  #mirrmurr-kviz-footer {
+    position: relative;
+  }
+  #ugrifules-kviz-footer {
+    position: relative;
+  }
   /* Mirr-Murr tabló */
   #mirrmurr-tablo-main {
     background-position: center;
@@ -2828,6 +2870,18 @@ body {
   }
   strong {
     font-size: 1.5rem;
+  }
+  /* Mirr Murr jutalom */
+  .korcsolya {
+    float: none;
+    margin: 1rem;
+  }
+  /* Ugrifüles jutalom */
+  .lo {
+    float: none;
+    width: 25rem;
+    height: auto;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

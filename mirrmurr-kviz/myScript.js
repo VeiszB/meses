@@ -15,7 +15,7 @@ var all_questions = [
     },
   },
   {
-    question_string: "Ki írta a Mir-Murr meséket",
+    question_string: "Ki írta a Mir-Murr meséket?",
     choices: {
       correct: "Csukás István",
       wrong: ["Benedek Elek", "Kormos István", "Zelk Zoltán"],
@@ -63,7 +63,7 @@ Quiz.prototype.render = function (container) {
   var self = this;
 
   // Hide the quiz results modal
-  $("#quiz-results").hide();
+  $("#tvm-quiz-results").hide();
 
   // Write the name of the quiz
   $("#quiz-name").text(this.quiz_name);
@@ -91,6 +91,8 @@ Quiz.prototype.render = function (container) {
       }
     }
     $("#submit-button").prop("disabled", !all_questions_answered);
+    $("#again-question-button").hide();
+    $("#jutalom-question-button").hide();
   }
 
   // Render the first question
@@ -126,29 +128,43 @@ Quiz.prototype.render = function (container) {
       }
     }
 
+    var jutalom = $("#jutalom-question-button");
+
     // Display the score with the appropriate message
     var percentage = score / self.questions.length;
     console.log(percentage);
     var message;
     if (percentage === 1) {
-      message = "Great job!";
+      message = "Mesés eredmény!";
+      $("#jutalom-question-button").slideDown();
     } else if (percentage >= 0.75) {
-      message = "You did alright.";
+      message =
+        "Ügyes vagy! A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     } else if (percentage >= 0.5) {
-      message = "Better luck next time.";
+      message =
+        "Legközelebb jobban sikerül. A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     } else {
-      message = "Maybe you should try a little harder.";
+      message =
+        "A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     }
-    $("#quiz-results-message").text(message);
-    $("#quiz-results-score").html(
-      "You got <b>" +
+
+    $("#tvm-quiz-results-score").html(
+      "Eredményed: <b>" +
         score +
         "/" +
         self.questions.length +
-        "</b> questions correct."
+        "</b> helyes válasz."
     );
-    $("#quiz-results").slideDown();
-    $("#quiz button").slideUp();
+    $("#tvm-quiz-results-message").text(message);
+    $("#tvm-quiz-results").slideDown();
+
+    $("#next-question-button").hide();
+    $("#prev-question-button").hide();
+    $("#submit-button").hide();
+    /*$("#jutalom-question-button").hide();*/
+
+    $("#again-question-button").slideDown();
+    /*$("#quiz button").slideUp();*/
   });
 
   // Add a listener on the questions container to listen for user select changes. This is for determining whether we can submit answers or not.

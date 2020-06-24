@@ -144,16 +144,15 @@ Quiz.prototype.render = function (container) {
       $("#jutalom-question-button").slideDown();
     } else if (percentage >= 0.75) {
       message =
-        "Ügyes vagy! A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
+        "Ügyes vagy! A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     } else if (percentage >= 0.5) {
       message =
-        "Legközelebb jobban sikerül. A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
+        "Legközelebb jobban sikerül. A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     } else {
       message =
-        "A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
+        "A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     }
 
-    $("#tvm-quiz-results-message").text(message);
     $("#tvm-quiz-results-score").html(
       "Eredményed: <b>" +
         score +
@@ -161,6 +160,7 @@ Quiz.prototype.render = function (container) {
         self.questions.length +
         "</b> helyes válasz."
     );
+    $("#tvm-quiz-results-message").text(message);
     $("#tvm-quiz-results").slideDown();
 
     $("#next-question-button").hide();
