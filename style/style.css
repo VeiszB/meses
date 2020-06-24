@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -61,18 +61,18 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header a img {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -80,8 +80,8 @@ a {
 
 .header h1 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
@@ -98,8 +98,8 @@ a {
 
 .header h2 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   font-size: 4.5rem;
   color: #1890a5;
@@ -107,16 +107,10 @@ a {
 }
 
 footer {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#1890a5),
-    to(#f0f0f0)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(#1890a5), to(#f0f0f0));
   background: linear-gradient(to right, #1890a5, #f0f0f0);
   -webkit-box-shadow: -2px -2px 20px #1e3013;
-  box-shadow: -2px -2px 20px #1e3013;
+          box-shadow: -2px -2px 20px #1e3013;
   /*background: linear-gradient(to right, #338942, #9fd8e2);*/
   color: white;
   font-family: "Passero One", cursive;
@@ -131,43 +125,43 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer ul {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer h4 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   text-shadow: 1px 1px 1px #000000;
 }
 
@@ -196,7 +190,7 @@ footer img {
 
 footer img:hover {
   -webkit-box-shadow: 2px 1px 1px #1890a5;
-  box-shadow: 2px 1px 1px #1890a5;
+          box-shadow: 2px 1px 1px #1890a5;
 }
 
 .main-nav {
@@ -207,8 +201,8 @@ footer img:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .nav-content {
@@ -217,13 +211,13 @@ footer img:hover {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 85vw;
   margin: 7.5rem auto;
 }
@@ -233,12 +227,12 @@ footer img:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card img {
@@ -247,37 +241,37 @@ footer img:hover {
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
     img-shake 2.5s infinite ease alternate-reverse 2s;*/
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
 }
 
 @-webkit-keyframes img-shake {
   from {
     -webkit-transform: rotateZ(-3deg);
-    transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
 @keyframes img-shake {
   from {
     -webkit-transform: rotateZ(-3deg);
-    transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
 .nav {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 20rem;
-  flex: 1 1 20rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
 }
 
 .nav-title {
@@ -313,13 +307,7 @@ footer img:hover {
   margin: auto;
   padding: 2rem 1rem;
   /*;background-color: rgba(255, 255, 255, 0.37);*/
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1890a538),
-    to(#ffffffc2)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
   background: linear-gradient(to bottom, #1890a538, #ffffffc2);
   border-radius: 3%;
 }
@@ -378,18 +366,18 @@ strong {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mesehosok-header a img {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -397,8 +385,8 @@ strong {
 
 .mesehosok-header h1 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
@@ -415,8 +403,8 @@ strong {
 
 .mesehosok-header h2 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Teko", sans-serif;
   font-size: 4.5rem;
   letter-spacing: 1px;
@@ -433,13 +421,13 @@ strong {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .kocka {
@@ -452,11 +440,11 @@ strong {
   background-color: burlywood;
   text-align: center;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #ffffff;
   font-size: 3rem;
   font-family: "Montserrat", sans-serif;
@@ -491,60 +479,24 @@ strong {
 }
 
 .tvmaci {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/tvmacif.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/tvmacif.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/tvmacif.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/tvmacif.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .mirrmurr {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/mirrmurrf.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/mirrmurrf.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/mirrmurrf.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/mirrmurrf.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .ugrifules {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/ufrifulesf.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/ufrifulesf.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/ufrifulesf.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/ufrifulesf.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -552,20 +504,8 @@ strong {
 }
 
 .misimokus {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/misimokusf.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/misimokusf.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/misimokusf.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/misimokusf.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -573,20 +513,8 @@ strong {
 }
 
 .fokyotto {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/misimokusf.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/misimokusf.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/misimokusf.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/misimokusf.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -594,20 +522,8 @@ strong {
 }
 
 .pompom {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/gombocartur.png");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/gombocartur.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/gombocartur.png");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/gombocartur.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -615,20 +531,8 @@ strong {
 }
 
 .csukasistvan {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/csukasistvan.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/csukasistvan.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/csukasistvan.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/csukasistvan.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -636,20 +540,8 @@ strong {
 }
 
 .sajdikferenc {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/sajdikferenc.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/sajdikferenc.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/sajdikferenc.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/sajdikferenc.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -657,20 +549,8 @@ strong {
 }
 
 .benedekelek {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(255, 255, 255, 0.4)),
-      to(rgba(37, 150, 170, 0.7))
-    ),
-    url("../img/benedekelek.jpg");
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(37, 150, 170, 0.7) 100%
-    ),
-    url("../img/benedekelek.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(37, 150, 170, 0.7))), url("../img/benedekelek.jpg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(37, 150, 170, 0.7) 100%), url("../img/benedekelek.jpg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -715,13 +595,13 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 70vw;
   margin: 1rem auto;
 }
@@ -732,20 +612,20 @@ footer {
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
       img-shake 2.5s infinite ease alternate-reverse 2s;*/
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
   padding-bottom: 3.5rem;
 }
 
 @keyframes img-shake {
   from {
     -webkit-transform: rotateZ(-3deg);
-    transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
@@ -755,7 +635,7 @@ footer {
   font: 16px "Source Sans Pro", sans-serif;
   border: none;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -775,16 +655,16 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #tvmacikvizheader a img {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 10rem;
-  flex: 1 1 10rem;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
   margin: auto;
   height: 12vh;
   width: auto;
@@ -812,9 +692,9 @@ body {
 
 .tvmacitipp {
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
 }
 
 #quiz h1 {
@@ -858,7 +738,7 @@ body {
   padding: 2rem;
   background: #fafafa;
   -webkit-box-shadow: 1px 1px 5px #1890a5;
-  box-shadow: 1px 1px 5px #1890a5;
+          box-shadow: 1px 1px 5px #1890a5;
 }
 
 #question h2 {
@@ -903,11 +783,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   top: 44px;
   left: 0px;
@@ -915,7 +795,7 @@ body {
   width: 100%;
   height: calc(100% - 44px);
   -webkit-box-shadow: 10px 10px 10px #31706c;
-  box-shadow: 10px 10px 10px #31706c;
+          box-shadow: 10px 10px 10px #31706c;
   border: 3px solid #188785;
 }
 
@@ -952,13 +832,26 @@ body {
   color: white;
 }
 
+#jutalom-question-button a {
+  color: #00403c;
+  font-size: 1.6rem;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0;
+}
+
+#jutalom-question-button a:hover {
+  color: white;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   font: 16px "Source Sans Pro", sans-serif;
   border: none;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
@@ -989,16 +882,16 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #tvmacikvizheader a img {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 10rem;
-  flex: 1 1 10rem;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -1026,9 +919,9 @@ body {
 
 .tvmacitipp {
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
 }
 
 #quiz h1 {
@@ -1072,7 +965,7 @@ body {
   padding: 2rem;
   background: #fafafa;
   -webkit-box-shadow: 1px 1px 5px #1890a5;
-  box-shadow: 1px 1px 5px #1890a5;
+          box-shadow: 1px 1px 5px #1890a5;
 }
 
 #question h2 {
@@ -1116,11 +1009,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   top: 44px;
   left: 0px;
@@ -1159,7 +1052,7 @@ body {
   font: 16px "Source Sans Pro", sans-serif;
   border: none;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
@@ -1189,16 +1082,16 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #ugrifuleskvizheader a img {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 10rem;
-  flex: 1 1 10rem;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -1226,9 +1119,9 @@ body {
 
 .tvmacitipp {
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
 }
 
 #quiz h1 {
@@ -1272,7 +1165,7 @@ body {
   padding: 2rem;
   background: #fafafa;
   -webkit-box-shadow: 1px 1px 5px #1890a5;
-  box-shadow: 1px 1px 5px #1890a5;
+          box-shadow: 1px 1px 5px #1890a5;
 }
 
 #question h2 {
@@ -1306,7 +1199,7 @@ body {
 }
 
 #question input[type="radio"]:checked + label {
-  background: #4176ba;
+  background: #83ba41;
   color: #fafafa;
 }
 
@@ -1316,11 +1209,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   top: 44px;
   left: 0px;
@@ -1366,18 +1259,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .rolunk-header a img {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -1385,8 +1278,8 @@ body {
 
 .rolunk-header h1 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
@@ -1403,8 +1296,8 @@ body {
 
 .rolunk-header h2 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   font-size: 3rem;
   color: #1890a5;
@@ -1418,13 +1311,7 @@ body {
   margin: auto;
   padding: 2rem 1rem;
   /*;background-color: rgba(255, 255, 255, 0.37);*/
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1890a538),
-    to(#ffffffc2)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
   background: linear-gradient(to bottom, #1890a538, #ffffffc2);
   border-radius: 3%;
 }
@@ -1484,18 +1371,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tvmaci-tablo-header a img {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -1503,8 +1390,8 @@ body {
 
 .tvmaci-tablo-header h1 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
@@ -1521,8 +1408,8 @@ body {
 
 .tvmaci-tablo-header h2 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   font-size: 4.5rem;
   letter-spacing: 1px;
@@ -1536,44 +1423,38 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 90%;
   margin: auto;
 }
 
 .tvmaci-tablo-text {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   width: 90%;
   height: auto;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   /*;background-color: rgba(255, 255, 255, 0.37);*/
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1890a538),
-    to(#ffffffc2)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
   background: linear-gradient(to bottom, #1890a538, #ffffffc2);
   border-radius: 3%;
 }
 
 .tvmacitablo-card {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 20rem;
-  flex: 1 1 20rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
   -webkit-box-align: left;
-  -ms-flex-align: left;
-  align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
 }
 
 .tvmaci-tablo-text p {
@@ -1591,20 +1472,20 @@ body {
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
         img-shake 2.5s infinite ease alternate-reverse 2s;*/
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
   padding-bottom: 3.5rem;
 }
 
 @keyframes img-shake {
   from {
     -webkit-transform: rotateZ(-3deg);
-    transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
@@ -1632,7 +1513,7 @@ body {
   color: white;
   text-shadow: 2px 2px 2px #106270;
   -webkit-box-shadow: 2px 2px 2px #106270;
-  box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
 }
 
 #mirrmurr-tablo-main {
@@ -1648,18 +1529,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mirrmurr-tablo-header a img {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -1667,8 +1548,8 @@ body {
 
 .mirrmurr-tablo-header h1 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
@@ -1685,8 +1566,8 @@ body {
 
 .mirrmurr-tablo-header h2 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   font-size: 4.5rem;
   letter-spacing: 1px;
@@ -1700,44 +1581,38 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 90%;
   margin: auto;
 }
 
 .mirrmurr-tablo-text {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   width: 90%;
   height: auto;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   /*;background-color: rgba(255, 255, 255, 0.37);*/
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1890a538),
-    to(#ffffffc2)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
   background: linear-gradient(to bottom, #1890a538, #ffffffc2);
   border-radius: 3%;
 }
 
 .mirrmurrtablo-card {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 20rem;
-  flex: 1 1 20rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
   -webkit-box-align: left;
-  -ms-flex-align: left;
-  align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
 }
 
 .mirrmurr-tablo-text p {
@@ -1755,20 +1630,20 @@ body {
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
           img-shake 2.5s infinite ease alternate-reverse 2s;*/
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
   padding-bottom: 3.5rem;
 }
 
 @keyframes img-shake {
   from {
     -webkit-transform: rotateZ(-3deg);
-    transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
@@ -1796,7 +1671,7 @@ body {
   color: white;
   text-shadow: 2px 2px 2px #106270;
   -webkit-box-shadow: 2px 2px 2px #106270;
-  box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
 }
 
 #ugrifules-tablo-main {
@@ -1812,18 +1687,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ugrifules-tablo-header a img {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -1831,8 +1706,8 @@ body {
 
 .ugrifules-tablo-header h1 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
@@ -1849,8 +1724,8 @@ body {
 
 .ugrifules-tablo-header h2 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   font-size: 4.5rem;
   letter-spacing: 1px;
@@ -1864,44 +1739,38 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 90%;
   margin: auto;
 }
 
 .ugrifules-tablo-text {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   width: 90%;
   height: auto;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   /*;background-color: rgba(255, 255, 255, 0.37);*/
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1890a538),
-    to(#ffffffc2)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
   background: linear-gradient(to bottom, #1890a538, #ffffffc2);
   border-radius: 3%;
 }
 
 .ugrifulestablo-card {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 20rem;
-  flex: 1 1 20rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
   -webkit-box-align: left;
-  -ms-flex-align: left;
-  align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
 }
 
 .ugrifules-tablo-text p {
@@ -1919,20 +1788,20 @@ body {
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
           img-shake 2.5s infinite ease alternate-reverse 2s;*/
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
   padding-bottom: 3.5rem;
 }
 
 @keyframes img-shake {
   from {
     -webkit-transform: rotateZ(-3deg);
-    transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
@@ -1960,7 +1829,7 @@ body {
   color: white;
   text-shadow: 2px 2px 2px #106270;
   -webkit-box-shadow: 2px 2px 2px #106270;
-  box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
 }
 
 #misimokus-tablo-main {
@@ -1976,18 +1845,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .misimokus-tablo-header a img {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -1995,8 +1864,8 @@ body {
 
 .misimokus-tablo-header h1 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
@@ -2013,8 +1882,8 @@ body {
 
 .misimokus-tablo-header h2 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   font-size: 4.5rem;
   letter-spacing: 1px;
@@ -2028,44 +1897,38 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 90%;
   margin: auto;
 }
 
 .misimokus-tablo-text {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   width: 90%;
   height: auto;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   /*;background-color: rgba(255, 255, 255, 0.37);*/
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1890a538),
-    to(#ffffffc2)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
   background: linear-gradient(to bottom, #1890a538, #ffffffc2);
   border-radius: 3%;
 }
 
 .misimokustablo-card {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 20rem;
-  flex: 1 1 20rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
   -webkit-box-align: left;
-  -ms-flex-align: left;
-  align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
 }
 
 .misimokus-tablo-text p {
@@ -2102,20 +1965,20 @@ body {
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
           img-shake 2.5s infinite ease alternate-reverse 2s;*/
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
   padding-bottom: 3.5rem;
 }
 
 @keyframes img-shake {
   from {
     -webkit-transform: rotateZ(-3deg);
-    transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
@@ -2143,7 +2006,7 @@ body {
   color: white;
   text-shadow: 2px 2px 2px #106270;
   -webkit-box-shadow: 2px 2px 2px #106270;
-  box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
 }
 
 #gombocartur-tablo-main {
@@ -2159,18 +2022,18 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .gombocartur-tablo-header a img {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   margin: 0rem 5rem;
   height: 12vh;
   width: auto;
@@ -2178,8 +2041,8 @@ body {
 
 .gombocartur-tablo-header h1 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   padding: 4.5rem;
   text-align: center;
@@ -2196,8 +2059,8 @@ body {
 
 .gombocartur-tablo-header h2 {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   font-family: "Passero One", cursive;
   font-size: 4.5rem;
   letter-spacing: 1px;
@@ -2211,44 +2074,38 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 90%;
   margin: auto;
 }
 
 .gombocartur-tablo-text {
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 20rem;
-  flex: 2 1 20rem;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
   width: 90%;
   height: auto;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   /*;background-color: rgba(255, 255, 255, 0.37);*/
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#1890a538),
-    to(#ffffffc2)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
   background: linear-gradient(to bottom, #1890a538, #ffffffc2);
   border-radius: 3%;
 }
 
 .gombocarturtablo-card {
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 20rem;
-  flex: 1 1 20rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
   -webkit-box-align: left;
-  -ms-flex-align: left;
-  align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
 }
 
 .gombocartur-tablo-text p {
@@ -2275,20 +2132,20 @@ body {
   /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
           img-shake 2.5s infinite ease alternate-reverse 2s;*/
   -webkit-animation: img-shake 3s ease infinite alternate;
-  animation: img-shake 3s ease infinite alternate;
+          animation: img-shake 3s ease infinite alternate;
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
   padding-bottom: 3.5rem;
 }
 
 @keyframes img-shake {
   from {
     -webkit-transform: rotateZ(-3deg);
-    transform: rotateZ(-3deg);
+            transform: rotateZ(-3deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
   }
 }
 
@@ -2315,7 +2172,14 @@ body {
   color: white;
   text-shadow: 2px 2px 2px #106270;
   -webkit-box-shadow: 2px 2px 2px #106270;
-  box-shadow: 2px 2px 2px #106270;
+          box-shadow: 2px 2px 2px #106270;
+}
+
+.oslopfo {
+  float: right;
+  width: 10rem;
+  height: auto;
+  margin-right: 5rem;
 }
 
 @media screen and (max-width: 1382px) {
@@ -2344,7 +2208,7 @@ body {
 @media screen and (max-width: 1080px) {
   footer {
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     text-align: center;
     padding: 1rem;
   }
@@ -2362,11 +2226,11 @@ body {
   .nav-content {
     margin: 0 auto;
     -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   footer {
     position: relative;
@@ -2398,14 +2262,14 @@ body {
   .header a img {
     height: 10vh;
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 5rem;
-    flex: 1 1 5rem;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
     margin: 0 2rem;
   }
   .header h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 10rem;
-    flex: 1 1 10rem;
+        -ms-flex: 1 1 10rem;
+            flex: 1 1 10rem;
     font-size: 2.8rem;
     padding: 2rem;
     background: url("../img/felhő1.png");
@@ -2442,13 +2306,7 @@ body {
     margin: auto;
     padding: 1rem 1rem;
     /*;background-color: rgba(255, 255, 255, 0.37);*/
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#1890a538),
-      to(#ffffffc2)
-    );
+    background: -webkit-gradient(linear, left top, left bottom, from(#1890a538), to(#ffffffc2));
     background: linear-gradient(to bottom, #1890a538, #ffffffc2);
     border-radius: 0%;
   }
@@ -2496,7 +2354,7 @@ body {
     width: 90vw;
     margin: auto;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
   }
   .cardj img {
     height: 20vh;
@@ -2504,9 +2362,9 @@ body {
     /*animation: img-shake 1.5s ease-in-out 0.5s infinite,
         img-shake 2.5s infinite ease alternate-reverse 2s;*/
     -webkit-animation: img-shake 3s ease infinite alternate;
-    animation: img-shake 3s ease infinite alternate;
+            animation: img-shake 3s ease infinite alternate;
     -webkit-transform-origin: bottom;
-    transform-origin: bottom;
+            transform-origin: bottom;
     padding-bottom: 0rem;
   }
   .utasitas {
@@ -2523,21 +2381,21 @@ body {
   }
   .rolunk-header {
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .rolunk-header a img {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 5rem;
-    flex: 1 1 5rem;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
     margin: 0rem 2rem;
     height: 10vh;
     width: auto;
   }
   .rolunk-header h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 10rem;
-    flex: 1 1 10rem;
+        -ms-flex: 1 1 10rem;
+            flex: 1 1 10rem;
     padding: 2rem;
     text-align: center;
     font-size: 2.8rem;
@@ -2548,8 +2406,8 @@ body {
   }
   .rolunk-header h2 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 30rem;
-    flex: 1 1 30rem;
+        -ms-flex: 1 1 30rem;
+            flex: 1 1 30rem;
     font-family: "Passero One", cursive;
     font-size: 2.4rem;
     padding: 2rem;
@@ -2565,14 +2423,14 @@ body {
   .mesehosok-header a img {
     height: 10vh;
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 5rem;
-    flex: 1 1 5rem;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
     margin: 0 2rem;
   }
   .mesehosok-header h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 10rem;
-    flex: 1 1 10rem;
+        -ms-flex: 1 1 10rem;
+            flex: 1 1 10rem;
     font-size: 2.8rem;
     margin-top: 1rem;
     padding: 2rem;
@@ -2597,12 +2455,12 @@ body {
     width: 100%;
     height: 15vh;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 0;
   }
   #tvmaci-logo {
@@ -2666,12 +2524,12 @@ body {
     width: 100%;
     height: 15vh;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 1rem auto;
   }
   #ugrifuleskvizheader a img {
@@ -2691,11 +2549,11 @@ body {
     width: 90%;
     height: 15vh;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 2rem auto;
   }
   .tvmaci-tablo-header a img {
@@ -2708,8 +2566,8 @@ body {
   }
   .tvmaci-tablo-header h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 5rem;
-    flex: 1 1 5rem;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
     font-size: 2.8rem;
     padding: 2.5rem;
     background: url("../img/felhő1.png");
@@ -2744,11 +2602,11 @@ body {
     width: 90%;
     height: 15vh;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 2rem auto;
   }
   .mirrmurr-tablo-header a img {
@@ -2761,8 +2619,8 @@ body {
   }
   .mirrmurr-tablo-header h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 5rem;
-    flex: 1 1 5rem;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
     font-size: 2.8rem;
     padding: 2.5rem;
     background: url("../img/felhő1.png");
@@ -2793,11 +2651,11 @@ body {
     width: 90%;
     height: 25vh;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 1rem auto;
   }
   .ugrifules-tablo-header a img {
@@ -2810,8 +2668,8 @@ body {
   }
   .ugrifules-tablo-header h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 5rem;
-    flex: 1 1 5rem;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
     font-size: 2.8rem;
     padding: 2.5rem;
     background: url("../img/felhő1.png");
@@ -2842,11 +2700,11 @@ body {
     width: 90%;
     height: 25vh;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 1rem auto;
   }
   .misimokus-tablo-header a img {
@@ -2859,8 +2717,8 @@ body {
   }
   .misimokus-tablo-header h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 5rem;
-    flex: 1 1 5rem;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
     font-size: 2.8rem;
     padding: 2.5rem;
     background: url("../img/felhő1.png");
@@ -2902,11 +2760,11 @@ body {
     width: 90%;
     height: 25vh;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 1rem auto;
   }
   .gombocartur-tablo-header a img {
@@ -2919,8 +2777,8 @@ body {
   }
   .gombocartur-tablo-header h1 {
     -webkit-box-flex: 1;
-    -ms-flex: 1 1 5rem;
-    flex: 1 1 5rem;
+        -ms-flex: 1 1 5rem;
+            flex: 1 1 5rem;
     font-size: 2.8rem;
     padding: 2.5rem;
     background: url("../img/felhő1.png");
@@ -2934,8 +2792,8 @@ body {
   }
   .gombocarturtablo-card {
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #gombocarturtablo-cardimg {
     width: 80vw;
@@ -2962,6 +2820,11 @@ body {
   }
   #gombocartur-tablo-footer {
     position: relative;
+  }
+  /* TV MACI jutalom */
+  .oslopfo {
+    float: none;
+    margin-right: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

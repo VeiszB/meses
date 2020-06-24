@@ -97,6 +97,7 @@ Quiz.prototype.render = function (container) {
     }
     $("#submit-button").prop("disabled", !all_questions_answered);
     $("#again-question-button").hide();
+    $("#jutalom-question-button").hide();
   }
 
   // Render the first question
@@ -132,12 +133,15 @@ Quiz.prototype.render = function (container) {
       }
     }
 
+    var jutalom = $("#jutalom-question-button");
+
     // Display the score with the appropriate message
     var percentage = score / self.questions.length;
     console.log(percentage);
     var message;
     if (percentage === 1) {
       message = "Mesés eredmény!";
+      $("#jutalom-question-button").slideDown();
     } else if (percentage >= 0.75) {
       message =
         "Ügyes vagy! A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
@@ -148,6 +152,7 @@ Quiz.prototype.render = function (container) {
       message =
         "A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
     }
+
     $("#tvm-quiz-results-message").text(message);
     $("#tvm-quiz-results-score").html(
       "Eredményed: <b>" +
@@ -157,11 +162,13 @@ Quiz.prototype.render = function (container) {
         "</b> helyes válasz."
     );
     $("#tvm-quiz-results").slideDown();
-    $("#again-question-button").slideDown();
+
     $("#next-question-button").hide();
     $("#prev-question-button").hide();
     $("#submit-button").hide();
+    /*$("#jutalom-question-button").hide();*/
 
+    $("#again-question-button").slideDown();
     /*$("#quiz button").slideUp();*/
   });
 
