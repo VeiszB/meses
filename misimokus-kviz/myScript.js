@@ -18,11 +18,11 @@ var all_questions = [
   {
     question_string: "Melyik idézet származik a Misi Mókus főcímdalából?",
     choices: {
-      correct: "Törve jó a dió, mogyoró,  Terem itt az erdőn millió,",
+      correct: '"Törve jó a dió, mogyoró, Terem itt az erdőn millió,"',
       wrong: [
-        "Legszentebb dolog a barátság  Többet ér, mint minden királyság",
-        "Tréfa senkit meg nem bánthat,  s néhány dolgot helyrerak!",
-        "Ha itt a nyár, ugye komám  A szív a víznek szalutál",
+        '"Legszentebb dolog a barátság Többet ér, mint minden királyság"',
+        '"Tréfa senkit meg nem bánthat, s néhány dolgot helyrerak!"',
+        '"Ha itt a nyár, ugye komám A szív a víznek szalutál"',
       ],
     },
   },
@@ -64,7 +64,7 @@ Quiz.prototype.render = function (container) {
   var self = this;
 
   // Hide the quiz results modal
-  $("#quiz-results").hide();
+  $("#tvm-quiz-results").hide();
 
   // Write the name of the quiz
   $("#quiz-name").text(this.quiz_name);
@@ -93,6 +93,7 @@ Quiz.prototype.render = function (container) {
     }
     $("#submit-button").prop("disabled", !all_questions_answered);
     $("#again-question-button").hide();
+    $("#jutalom-question-button").hide();
   }
 
   // Render the first question
@@ -128,23 +129,26 @@ Quiz.prototype.render = function (container) {
       }
     }
 
+    var jutalom = $("#jutalom-question-button");
+
     // Display the score with the appropriate message
     var percentage = score / self.questions.length;
     console.log(percentage);
     var message;
     if (percentage === 1) {
-      message = "Mesés eredmény!";
+      message = "Mesés eredmény!  Kattints a jutalom gombra!";
+      $("#jutalom-question-button").slideDown();
     } else if (percentage >= 0.75) {
       message =
-        "Ügyes vagy! A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
+        "Ügyes vagy! A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     } else if (percentage >= 0.5) {
       message =
-        "Legközelebb jobban sikerül. A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
+        "Legközelebb jobban sikerül. A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     } else {
       message =
-        "A kód megszerzéséhez próbálkozz újra! A mesehős a jobb sarokban tippet ad.";
+        "A kód megszerzéséhez próbálkozz újra! A mesehős a jobb felső sarokban tippet ad.";
     }
-    $("#tvm-quiz-results-message").text(message);
+
     $("#tvm-quiz-results-score").html(
       "Eredményed: <b>" +
         score +
@@ -152,12 +156,15 @@ Quiz.prototype.render = function (container) {
         self.questions.length +
         "</b> helyes válasz."
     );
+    $("#tvm-quiz-results-message").text(message);
     $("#tvm-quiz-results").slideDown();
-    $("#again-question-button").slideDown();
+
     $("#next-question-button").hide();
     $("#prev-question-button").hide();
     $("#submit-button").hide();
+    /*$("#jutalom-question-button").hide();*/
 
+    $("#again-question-button").slideDown();
     /*$("#quiz button").slideUp();*/
   });
 

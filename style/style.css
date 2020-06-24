@@ -2211,7 +2211,7 @@ body {
 }
 
 #ugrifüles_jutalom_h2 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 #ugrifüles_jutalom_header {
@@ -2879,7 +2879,7 @@ body {
   /* Ugrifüles jutalom */
   .lo {
     float: none;
-    width: 25rem;
+    width: 20rem;
     height: auto;
     margin: auto;
   }

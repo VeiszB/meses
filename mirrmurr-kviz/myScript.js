@@ -135,7 +135,7 @@ Quiz.prototype.render = function (container) {
     console.log(percentage);
     var message;
     if (percentage === 1) {
-      message = "Mesés eredmény!";
+      message = "Mesés eredmény!  Kattints a jutalom gombra!";
       $("#jutalom-question-button").slideDown();
     } else if (percentage >= 0.75) {
       message =
