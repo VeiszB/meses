@@ -2826,5 +2826,8 @@ body {
     float: none;
     margin-right: auto;
   }
+  strong {
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
