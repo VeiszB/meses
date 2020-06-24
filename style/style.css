@@ -293,7 +293,7 @@ footer img:hover {
 #kiallitas-main {
   width: 100%;
   height: auto;
-  background-position: left;
+  background-position: center;
 }
 
 #kiallitas-footer {
@@ -1208,7 +1208,7 @@ body {
 }
 
 #question input[type="radio"]:checked + label {
-  background: #83ba41;
+  background: #085e79;
   color: #fafafa;
 }
 
@@ -1533,7 +1533,7 @@ body {
 
 .mirrmurr-tablo-header {
   width: 100%;
-  min-height: 20vh;
+  min-height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2534,11 +2534,11 @@ body {
   }
   #question label {
     margin: 4px;
-    padding: 9px;
+    padding: 11px;
     width: calc(50% - 8px);
     min-width: 100px;
     border-radius: 9999px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   #quiz button {
     display: block;
@@ -2616,7 +2616,7 @@ body {
     background-repeat: no-repeat;
   }
   .tvmaci-tablo-header h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
   }
   .tvmaci-tablo-text {
