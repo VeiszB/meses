@@ -37,6 +37,17 @@ $gray-text: #2c2c2c;
 @import "ugrifuleskviz";
 @import "ugrifules_jutalom";
 
+@media screen and (min-width: 1700px) {
+  .header h1 {
+    background-size: 50%;
+  }
+
+  .rolunk-header h1 {
+    background-size: 50%;
+    padding: 6rem;
+  }
+}
+
 @media screen and (max-width: 1382px) {
   .nav-content {
     width: 95vw;
