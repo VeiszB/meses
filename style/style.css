@@ -1368,11 +1368,6 @@ body {
   background-position: left;
 }
 
-#kiallitas-footer {
-  position: relative;
-  bottom: 0;
-}
-
 .tvmaci-tablo-header {
   width: 100%;
   min-height: 20vh;
@@ -1523,6 +1518,11 @@ body {
   text-shadow: 2px 2px 2px #106270;
   -webkit-box-shadow: 2px 2px 2px #106270;
           box-shadow: 2px 2px 2px #106270;
+}
+
+#tvmaci-tablo-footer {
+  position: relative;
+  bottom: 0;
 }
 
 #mirrmurr-tablo-main {

@@ -4,11 +4,6 @@
   background-position: left;
 }
 
-#kiallitas-footer {
-  position: relative;
-  bottom: 0;
-}
-
 .tvmaci-tablo-header {
   width: 100%;
   min-height: 20vh;
@@ -127,4 +122,9 @@
   color: white;
   text-shadow: 2px 2px 2px rgb(16, 98, 112);
   box-shadow: 2px 2px 2px rgb(16, 98, 112);
+}
+
+#tvmaci-tablo-footer {
+  position: relative;
+  bottom: 0;
 }
