@@ -6,7 +6,7 @@
 
 .ugrifules-tablo-header {
   width: 100%;
-  min-height: 20vh;
+  min-height: 30vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -58,7 +58,7 @@
   flex: 2 1 20rem;
   width: 90%;
   height: auto;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   margin-bottom: 2rem;
   /*;background-color: rgba(255, 255, 255, 0.37);*/
   background: linear-gradient(to bottom, #1890a538, #ffffffc2);
@@ -99,7 +99,7 @@
 }
 
 #ugrifules-tablo-footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
